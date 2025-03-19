@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politika a vláda Temné Říše Morhold</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: #0d0d0d;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .container {
+            flex: 1;
+            padding: 20px;
+            max-width: 900px;
+            background: rgba(20, 20, 20, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            margin: 20px auto;
+        }
+        .sidebar {
+            width: 250px;
+            background: rgba(20, 20, 20, 0.9);
+            padding: 20px;
+            position: fixed;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow-y: auto;
+            box-shadow: -2px 0 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .sidebar.closed {
+            transform: translateX(100%);
+        }
+        .toggle-btn {
+            position: fixed;
+            right: 400px;
+            top: 20px;
+            background: #ffcc00;
+            color: #000;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .back-btn {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            background: #ffcc00;
+            color: #000;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(50, 50, 50, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+			text-decoration: none;
+        }
+        .section h2 {
+            color: #ffcc00;
+        }
+        .sidebar a {
+            display: block;
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 5px 0;
+        }
+        .image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+		.next-arrow {
+            display: block;
+            text-align: right;
+            margin-top: 20px;
+            font-size: 2em;
+            color: #ffcc00;
+            text-decoration: none;
+        }
+		a{
+			text-decoration: none;
+        }
+		p{
+		 color: #FFFFFF;
+		}
+		
+    </style>
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Politika a vláda Temné Říše Morhold</h1>
+        
+        <div class="section" id="vlada">
+            <h2>Vláda a řízení říše</h2>
+            <p>Temná Říše Morhold je vedena dynastií Stínných kněží, kteří svou moc odvozují od pradávného paktu s temnou entitou. Vládce Morholdu je titulován jako Arcimág a disponuje absolutní mocí nad magií a řízením říše.</p>
+        </div>
+
+        <div class="section" id="vladce">
+            <h2>Vládce: Arcimág Vorthal</h2>
+            <p>Současným vládcem Morholdu je Arcimág Vorthal, potomek pradávné linie Stínných kněží. Jeho sídlo se nachází v citadele Solivovice, starobylé pevnosti, která slouží jako srdce moci Koncilu Stínů. Vorthal je znám svou neochvějnou věrností paktu se Stínem a svými bezcitnými rozhodnutími, které zajišťují pokračování vlády jeho rodu.</p>
+            <p>Vorthal je obávaný nejen mezi svými nepřáteli, ale i mezi vlastními poddanými. Má pověst vládce, který neodpouští slabost. Ovládá mocné stínové rituály, které mu umožňují vidět skrze temnotu a manipulovat energií Stínu k posílení své fyzické i mentální síly.</p>
+            <p>Jeho vláda je podporována Koncilem Stínů, ale rozhodující slovo má vždy on sám. Říká se, že Arcimág neodpovídá pouze lidem, ale také samotné temné entitě, se kterou byl před tisíci lety uzavřen pakt. Někteří šeptají, že každá noc, kdy se zavře ve své komnatě, je zasvěcena tajemným rituálům a komunikaci s neznámými bytostmi.</p>
+        </div>
+        <a href="morhold_koncil_stinu.html">
+        <div class="section" id="koncil">
+            <h2>Koncil Stínů</h2>
+            <p>Koncil Stínů je složen z nejmocnějších mágů a alchymistů říše. Tento magický sněm rozhoduje o klíčových záležitostech, včetně využívání magie, diplomatických vztahů a válečných strategií.</p>
+			<a class="next-arrow">➜</a>
+        </div>
+        </a>
+        <div class="section" id="zakony">
+            <h2>Zákony a spravedlnost</h2>
+            <p>V Morholdu platí přísné zákony, které se opírají o magii a vůli Koncilu. Zločiny proti říši jsou trestány rituálním vyhoštěním nebo přeměnou odsouzence na stínovou bytost.</p>
+        </div>
+        
+        <div class="section" id="diplomacie">
+            <h2>Diplomacie a zahraniční vztahy</h2>
+            <p>Morhold je znám jako tajemný a nedůvěryhodný spojenec. Ostatní království vnímají říši s obavami kvůli jejím magickým praktikám a záhadným diplomatickým krokům.</p>
+        </div>
+
+       
+    </div>
+    
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#vlada">Vláda a řízení říše</a>
+        <a href="#vladce">Vládce: Arcimág Vorthal</a>
+        <a href="#koncil">Koncil Stínů</a>
+        <a href="#zakony">Zákony a spravedlnost</a>
+        <a href="#diplomacie">Diplomacie a zahraniční vztahy</a>
+		<a href="morhold_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+    
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>
