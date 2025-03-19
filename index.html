@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeonpedia - The Ultimate D&D Wiki</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(30, 30, 30, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 1900px;
+            margin: auto;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 5px #000;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 10px;
+        }
+        .search {
+            margin: 20px 0;
+        }
+        .categories, .featured, .news {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(50, 50, 50, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        .categories a, .featured a, .news a {
+            color: #ffcc00;
+        }
+        input[type="text"] {
+            background: #333;
+            border: 1px solid #555;
+            color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        button {
+            background: #ffcc00;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dungeonpedia</h1>
+        <p>The Ultimate Dungeons & Dragons Compendium</p>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="rozcestnikkralovstvi.html">Království</a>
+        </nav>
+
+        <div class="search">
+            <input type="text" placeholder="Search the archives..." size="40">
+            <button>Search</button>
+        </div>
+
+        <div class="categories">
+            <h2>Explore the Wiki</h2>
+            <p><a href="#">Character Creation</a> | <a href="#">Bestiary</a> | <a href="#">Magic Items</a> | <a href="#">Dungeons & Settings</a></p>
+        </div>
+
+        <div class="featured">
+            <h2>Featured Article</h2>
+            <p><strong>The Beholder</strong> - One of the most iconic monsters in D&D. <a href="#">Read more...</a></p>
+        </div>
+
+        <div class="news">
+            <h2>Latest Updates</h2>
+            <p>March 2025: New updates to the 5e ruleset! <a href="#">Check them out...</a></p>
+        </div>
+    </div>
+</body>
+</html>
