@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koncil Stínů</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: #0d0d0d;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .container {
+            flex: 1;
+            padding: 20px;
+            max-width: 900px;
+            background: rgba(20, 20, 20, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            margin: 20px auto;
+        }
+        .sidebar {
+            width: 250px;
+            background: rgba(20, 20, 20, 0.9);
+            padding: 20px;
+            position: fixed;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow-y: auto;
+            box-shadow: -2px 0 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .sidebar.closed {
+            transform: translateX(100%);
+        }
+        .toggle-btn {
+            position: fixed;
+            right: 400px;
+            top: 20px;
+            background: #ffcc00;
+            color: #000;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .back-btn {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            background: #ffcc00;
+            color: #000;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(50, 50, 50, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+			text-decoration: none;
+        }
+        .section h2 {
+            color: #ffcc00;
+        }
+        .sidebar a {
+            display: block;
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 5px 0;
+        }
+		a{
+			text-decoration: none;
+        }
+		p{
+		 color: #FFFFFF;
+		}
+    </style>
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Koncil Stínů</h1>
+        
+        <div class="section" id="uvod">
+            <h2>Koncil Stínů: Magokratická elita Temné Říše Morhold</h2>
+            <p>Koncil Stínů je nejvyšším rozhodovacím orgánem Temné Říše Morhold a zároveň hlavním zdrojem moci, který stojí za vládou Arcimága. Tvoří jej nejmocnější mágové a alchymisté říše, jejichž schopnosti dalece přesahují běžné znalosti magie. Tento magický sněm rozhoduje o všech klíčových otázkách Morholdu – od válečných strategií, přes správu magických uzlů, až po utváření diplomatických vztahů s okolními říšemi.</p>
+        </div>
+
+        <div class="section" id="struktura">
+            <h2>Struktura a hierarchie Koncilu</h2>
+            <p>Koncil Stínů je organizován podle přísné hierarchie, která je založena na magické moci, vědomostech a loajalitě k říši a jejímu stínovému paktu. Členové Koncilu jsou vybíráni mezi nejtalentovanějšími adepty magie a alchymie, přičemž jejich přijetí je často podmíněno složením obtížných zkoušek, rituálů a magických obětí.</p>
+			<ul>
+				<li>
+					Arcimág Vorthal – Vrchní vládce Morholdu
+				</li>
+				
+				<ul>
+					<li>Arcimág je nejen politickým vůdcem, ale i nejvyšším představitelem magie v říši. Má absolutní moc nad Koncilem a jeho rozhodnutí nelze zpochybnit. Přesto se Koncil snaží udržovat rovnováhu a nenápadně ovlivňovat jeho rozhodnutí.</li>
+				</ul>
+				<li> Vnitřní kruh Koncilu – Rada pěti</li>
+				<ul>
+					<li>Tento exkluzivní kruh tvoří pět nejmocnějších mágů a alchymistů Morholdu, kteří odpovídají přímo Arcimágovi. Jsou jeho poradci, strážci tajemství a vykonavatelé temné vůle říše. Každý z nich dohlíží na určitou oblast:</li>
+					<ul>
+					<li>Mistr magie – Zodpovědný za regulaci a rozvoj magických praktik.</li>
+					<li>Mistr válečné magie – Vede magické legie a plánuje obranu říše.</li>
+					<li>Mistr alchymie – Kontroluje výrobu elixírů, jedů a stínových artefaktů.</li>
+					<li>Mistr stínových uzlů – Spravuje tok magické energie skrze uzly říše.</li>
+					<li>Mistr diplomacie – Řídí jednání s ostatními státy a vyjednává temné pakty.</li>
+					</ul>
+				</ul>
+				<li>Širší sněm Koncilu – Dvacet temných magistrů</li>
+				<ul>
+				<li>Tito vysoce postavení členové dohlížejí na jednotlivé regiony říše a mají na starost dohled nad magickými centry, pevnostmi a experimentálními laboratořemi. Často slouží jako soudci v závažných případech zločinů proti Morholdu.</li>
+				</ul>
+			</ul>
+        </div>
+        
+        <div class="section" id="pravomoci">
+            <h2>Pravomoci Koncilu</h2>
+			<h3>Správa magie a rituálů</h3>
+            <p>Koncil určuje pravidla pro používání magie v říši. Nejenže kontroluje magické uzly, ale také reguluje přístup ke starobylým zakázaným kouzlům. Kdo se pokusí ovládnout magii mimo dohled Koncilu, je tvrdě potrestán. Mezi členy existují i skupiny, které věří v přísnější dohled nad magickou energií, zatímco jiní se snaží její potenciál plně využít.</p>
+			<h3>Regulace válečných strategií a vojenské expanze</h3>
+			<p>Koncil Stínů je zodpovědný za vedení válek a strategické expanze říše. Taktiky Morholdu jsou založené na kombinaci vojenské síly a temné magie – vytváření nemrtvých armád, manipulace reality skrze magické uzly a využívání zakázaných rituálů. Rozhodují o tom, které oblasti budou napadeny, které budou ponechány ve stínu a jaká cena bude zaplacena za vítězství.</p>
+			<h3>Diplomacie a utajené operace</h3>
+			<p>Ačkoli Morhold není známý svou důvěryhodností, Koncil vede tajná jednání s okolními říšemi. Ve hře jsou dohody o výměně magických artefaktů, pronájmu stínových žoldnéřů nebo dokonce obětování celých vesnic výměnou za tajné výhody. Některé frakce v Koncilu věří, že by říše měla být otevřenější, zatímco jiné trvají na naprostém utajení a izolaci.</p>
+			<h3> Dohled nad populací a kontrola magie</h3>
+			<p>Každý obyvatel Morholdu je pod dohledem Koncilu. Přístup k magii je sice běžný, ale ti, kteří projeví příliš nebezpečné schopnosti, mohou být odvedeni na „výcvik“ nebo rovnou odstraněni. Koncil se snaží zabránit povstáním, a proto sleduje veškeré podezřelé aktivity a odpadlíky. Stínoví agenti se pohybují mezi obyvatelstvem a každý, kdo jedná proti zájmům říše, brzy zmizí beze stopy.</p>
+			<h3>Kontrola nad náboženstvím a pakt se Stínem</h3>
+			<p>Morhold nemá žádná božstva kromě jednoho – Stínu. Koncil dohlíží na uctívání této entity a zabezpečuje, že rituály jsou prováděny správně. Každá generace členů Koncilu musí složit magickou přísahu, že budou věrni Temnotě, a ti, kteří by se pokusili porušit tuto přísahu, jsou pohlceni Stínem beze stopy.</p>
+        </div>
+        
+        <div class="section" id="tajemstvi">
+            <h2>Tajemství a vnitřní konflikty</h2>
+            <p>Ačkoli Koncil vystupuje jako jednotná síla, ve skutečnosti v něm existují různé frakce, které se liší svým pohledem na budoucnost Morholdu. Někteří věří, že říše by měla být agresivnější, zatímco jiní se domnívají, že přílišné spoléhání na Stín může vést k jejímu zániku. Mezi nejvýznamnější skryté konflikty patří:</p>
+			<ul>
+			<li>Frakce „Čistého Stínu“ – věří v absolutní moc Stínu a chtějí přetvořit Morhold v čistě magickou entitu, kde smrtelníci již nebudou mít místo.</li>
+			<li>Frakce „Vyvážené moci“ – usilují o zachování rovnováhy mezi magií a běžným životem, aby se předešlo zániku říše kvůli přílišné magické závislosti.</li>
+			<li>Frakce „Reformátorů“ – tajně usilují o oslabení Stínového paktu a větší spolupráci s jinými státy, aby Morhold nepadl do úplné izolace.</li>
+			</ul>
+        </div>
+        
+       
+    </div>
+    
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#uvod">Úvod</a>
+        <a href="#struktura">Struktura Koncilu</a>
+        <a href="#pravomoci">Pravomoci Koncilu</a>
+        <a href="#tajemstvi">Tajemství a konflikty</a>
+		<a href="morhold_politic_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+    
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

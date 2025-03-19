@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeonpedia - Historie Temné Říše Morhold</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: #0d0d0d;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .container {
+            flex: 1;
+            padding: 20px;
+            max-width: 900px;
+        }
+        .sidebar {
+            width: 250px;
+            background: rgba(20, 20, 20, 0.9);
+            padding: 20px;
+            position: fixed;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow-y: auto;
+            box-shadow: -2px 0 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .sidebar.closed {
+            transform: translateX(100%);
+        }
+        .toggle-btn {
+            position: fixed;
+            right: 400px;
+            top: 20px;
+            background: #ffcc00;
+            color: #000;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .back-btn {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            background: #ffcc00;
+            color: #000;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section {
+            margin: 40px 0;
+            padding: 15px;
+            background: rgba(50, 50, 50, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        .section h2 {
+            color: #ffcc00;
+        }
+        .sidebar a {
+            display: block;
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 5px 0;
+        }
+        .image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+ <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Historie Temné Říše Morhold</h1>
+        
+        <div class="section" id="pocatek">
+            <h2>Pradávná historie: Před příchodem lidí</h2>
+			<h3>(~3000 let před současností)</h3>
+			<p>
+				Severní část kontinentu, kde dnes leží Temná říše Morhold, nebyla vždy pustou zemí sužovanou magií stínů. Před příchodem prvních civilizací byla tato oblast domovem mocných magických bytostí, zejména prastarých elementálů a duchů noci. Tyto entity, spjaté s přírodními silami, formovaly krajinu a chránily ji před vnějšími hrozbami. Jejich magie se proplétala s každým stromem, pramenem vody i skálou a vytvářela svět plný mystických energií.
+			</p>
+			<p>
+				Původní podoba tohoto území se výrazně lišila od dnešní pustiny. Namísto suchých savan se zde rozprostíraly rozsáhlé lesy propletené prastarými magickými silami, v jejichž hlubinách se nacházely posvátné háje. Tyto háje sloužily jako ohniska energie, kde se přirozená magie koncentrovala a proudila skrze podzemní uzly. Stromy dosahovaly ohromných výšek a jejich listy zářily v noci slabým světlem, protože byly napojeny na síť magických sil. Magie zde nebyla vnímána jako pouhý nástroj, ale jako samotná esence existence, která formovala vše živé.
+			</p>
+			<p>
+				Mezi prvními obyvateli tohoto území byli stínoví elfové, rasa bytostí spojených s nocí a tajemstvím. Byli to nomádští strážci přírodních sil, kteří dokázali číst znamení v hvězdách a komunikovat se zemí skrze pradávné rituály. Spolu s nimi zde žily inteligentní smečky vlků, jejichž vědomí bylo propojeno s magickými proudy. Tito vlci nebyli obyčejnými zvířaty, ale duchovními strážci lesa, schopnými dorozumívat se mezi sebou na velké vzdálenosti pomocí telepatických vazeb.
+			</p>
+			<p>
+				Stínoví elfové nebyli jen obyčejnými lesními tvory, ale skutečnými správci rovnováhy mezi světem hmotným a duchovním. Každá generace jejich vůdců byla zasvěcena do tajemství magie spjaté se zemí a nebem. Obřady probíhaly v chrámových hájích, kde kněží vzývali hvězdy a skrze ně komunikovali s neznámými silami vesmíru. Tito elfové si uvědomovali, že magie není nevyčerpatelná, a proto pečlivě dbali na její rovnováhu.
+			</p>
+			<p>
+				Tato harmonie však nebyla věčná. Magie, i když mocná, nebyla neomezená. Udržování rovnováhy vyžadovalo neustálou péči a oběti ze strany obyvatel lesa. Pravidelné rituály a obřady byly nutné k tomu, aby se předešlo nekontrolovatelným výbojům energie, které mohly narušit křehkou rovnováhu. Po tisíce let tato komunita udržovala stabilitu a zabránila tomu, aby magie přerostla do ničivé síly.
+			</p>
+			<p>
+				Krajina se v této době vyznačovala svou nevšední krásou. Hory v dálce byly pokryty mlhou, která nebyla pouze přírodním jevem, ale měla hlubší magický význam – sloužila jako závoj chránící posvátné území před nežádoucími návštěvníky. Řeky nebyly pouze zdrojem vody, ale nesly v sobě proudy energie, které dokázaly léčit nebo naopak přetvářet hmotu. Každý prvek této země měl svůj význam a byl součástí širšího systému, jehož rovnováha byla klíčová pro přežití všeho živého.
+			</p>
+			<p>
+				Tato zlatá éra severního kontinentu však pomalu směřovala ke svému konci. Přirozený tok magie byl narušován neznámými vlivy, které začaly oslabovat spojení mezi zemí a jejími ochránci. První náznaky zániku se projevovaly ve změně klimatu, v podivných anomáliích v magických uzlech a v tom, že některé posvátné háje ztratily svůj lesk a energii. Stínoví elfové se snažili pochopit důvod této změny, ale odpovědi, které nacházeli, byly znepokojivé. Magie se začala měnit, přizpůsobovala se novým silám, které zatím nebyly pochopeny.
+			</p>
+			<p>
+				Změny nebyly náhlé, ale přicházely postupně. Některé oblasti začaly vysychat, zatímco jiné byly sužovány bouřemi, které nikdy dříve neexistovaly. Zvířata i rostliny, dříve spjaté s harmonií magie, začaly vykazovat známky mutace. Vlčí smečky, které kdysi chránily posvátné lesy, začaly mizet. Některé z nich se proměnily v temné bytosti, které se vyhýbaly světlu a útočily na všechno živé.
+			</p>
+			<p>
+				To bylo období, kdy se svět připravoval na příchod nových hráčů – lidí. Tito vetřelci, kteří měli zcela odlišný přístup k magii i k přírodě, měli přinést změnu, která navždy přetvořila tvář této země. Přestože si toho tehdejší obyvatelé nebyli vědomi, jejich éra se blížila k nevyhnutelnému konci. Stínoví elfové mohli cítit blížící se zlom – ale žádné proroctví nedokázalo předpovědět, jak hluboké budou následky této změny.
+			</p>
+
+            <div class="image">
+                <img src="IMG/pocatek.webp" alt="Počátek Morholdu">
+            </div>
+        </div>
+        
+        <div class="section" id="valky">
+            <h2>Éra prvních lidských civilizací </h2>
+			<h3>(~2500–2000 let před současností)</h3>
+            <p>
+			V posledních desetiletích se Temná říše Morhold ocitla v období nejistoty a postupného rozkladu. Staletí dominance a pakt se Stínem vyžadují svou cenu, kterou již nelze ignorovat. Přestože kněží Koncilu Stínů stále udržují fasádu moci, skutečnost je jiná – říše slábne. Rozpory mezi vládnoucí elitou, nedostatek zdrojů a hrozící Splátka oslabují kdysi neotřesitelné základy Morholdu.
+			</p>
+			<p>
+			Největší hrozbou, které říše čelí, je zemědělská krize. Po tisíciletí byla půda Morholdu obětována pro Stínovou magii, čímž se stala vyprahlou a neúrodnou. Magické uzly, které kdysi dodávaly vláhu a život, byly dávno přesměrovány k rituálům Temné magie. Říše je nyní závislá na zásobách z dobytých území, ale s oslabováním vojenské síly jsou tyto dodávky stále častěji přerušovány povstaleckými skupinami. V mnoha městech vypukl hlad a neklid, což vedlo k prvním otevřeným povstáním proti Koncilu Stínů.
+			</p>
+			<p>
+			Povstání menších klanů a frakcí ukazuje, že se říše začíná rozpadat zevnitř. Mnozí Morholdští už nevěří v Koncil ani v Stín – místo toho hledají alternativní cesty magie nebo utíkají z říše úplně. Ve vzdálených provinciích se začaly objevovat tajné kulty, které uctívají jiná božstva a snaží se vymanit z vlivu Temné magie. Kněží Koncilu proti těmto skupinám vedou nelítostné čistky, ale čím více krve je prolito, tím silnější odpor roste.
+			</p>
+			<p>
+			Jedním z nejzřetelnějších symbolů upadající moci Morholdu je pád pevnosti Xal-Thuun. Tato strategická citadela, která po staletí chránila severní hranice říše, se stala ohniskem neklidu. Po sérii nevysvětlitelných událostí pevnost upadla do chaosu – vojáci byli sužováni nočními můrami, důstojníci začali z neznámých důvodů mizet a samotné zdi pevnosti byly pohlcovány stíny. Když Koncil Stínů vyslal posily, našli pevnost opuštěnou. Jediné, co zůstalo, byly šílené nápisy vyryté do kamene – varování o tom, že Splátka se blíží.
+			</p>
+			<p>
+			Katalyzátorem všech těchto událostí je Sylara Nocturne – vyhnankyně říše, která se rozhodla postavit proti Koncilu a hledat způsob, jak zlomit pakt Morholdu se Stínem. Její exil a pátrání po pravdě rozdmýchaly plameny revoluce. Mnozí věří, že právě ona přinese říši naději, zatímco jiní se obávají, že její činy jen urychlí neodvratitelný konec. Pokud by Sylara skutečně našla způsob, jak přerušit vazbu mezi Morholdem a jeho patronem, mohla by přepsat osud celé říše – a možná i celého světa.
+			</p>
+			<p>
+			Temná říše Morhold stojí na prahu změny. Stín, který ji po staletí chránil, nyní sahá po své splátce. Každý den se blíží okamžik, kdy bude muset říše čelit svému největšímu nepříteli – vlastní minulosti a slibům, které neměly být nikdy porušeny.
+			</p>
+            <div class="image">
+                <img src="IMG/valky.webp" alt="Války Morholdu">
+            </div>
+        </div>
+        
+        <div class="section" id="temna_era">
+            <h2>Vzestup První Stínové říše </h2>
+			<h3>(~1800 let před současností)</h3>
+			<p>
+            Proroci Temnoty pochopili, že přirozenou magii země nelze zkrotit tradičními metodami, a proto se uchýlili k mocným, ale nebezpečným rituálům. Ve snaze podrobit si divoké síly magie začali experimentovat s temnými obřady, jejichž původ byl zahalen v mlhách zapomenutých legend. Každý rituál byl krokem dál do neznáma, každá oběť posilovala jejich odhodlání. Ale nikdo netušil, že jejich největší objev se stane také jejich 
+			největším prokletím.
+			</p>
+			<p>
+			V této době se objevil Morhold – prorok s neobyčejným nadáním pro nekromancii a temnou magii. Nebyl jen dalším z Proroků Temnoty, byl něčím víc. Ve snech k němu promlouvaly hlasy z jiného světa, šeptaly o zapomenuté moci a slibovaly mu sílu, jakou nikdo před ním nedržel v rukou. Hledal odpovědi ve starých ruinách, v zakázaných knihovnách, kde se zaprášené svitky chvěly pod náporem jeho přítomnosti. Nakonec, po letech hledání, narazil na prastarý fragment dimenzionální trhliny, artefakt tak mocný, že jeho samotná přítomnost narušovala magickou rovnováhu a způsobovala, že svět kolem něj ztrácel barvy.
+			</p>
+			<p>
+			Bylo to v podzemním chrámu zapomenutém v hlubinách severní pustiny, kde se Morhold postavil na prastarý oltář, jehož runy po tisíce let nepoznaly světlo pochodní. Krev obětí nasákla kámen, zatímco Morholdova mysl se napojila na něco, co nemělo jméno. Po celých sedm dní vykonával rituál, jeho hlas se třásl mezi dimenzemi a jeho duše byla roztrhána a znovu sestavena ve formě, kterou ani on sám nepoznával. A pak se to stalo – mezi realitami se otevřela trhlina a z ní se vynořila entita, jejíž přítomnost byla chladná jako smrt a temná jako prázdnota vesmíru.
+			</p>
+			<p>
+			Bytost ze Stínu neměla tvar. Byla to vlna tmy, pulsující vědomím a hladem, který nelze nasytit. Nehovořila jazykem smrtelníků, ale její myšlenky pronikaly do Morholdovy mysli jako šepoty, kterým nešlo vzdorovat. Výměnou za věčnou loajalitu mu nabídla moc – ale ne moc obyčejných lidí, nýbrž moc, která přetvoří jeho říši a jeho lid do podoby, jakou ještě žádný člověk nepoznal.
+			<p>
+			Avšak každá moc má svou cenu. Aby Proroci získali slíbenou sílu, museli se vzdát části sebe sama. Jejich těla i duše začaly procházet proměnou – zrodily se první Stínové rituály, které přetvářely nejen jejich mysl, ale i fyzickou podobu. Jejich oči potemněly, jejich kůže získala šedavý nádech a jejich duše byly částečně pohlceny mocí Stínu. Už nebyli lidmi v pravém slova smyslu, ale něčím mezi světem smrtelníků a světem Stínů. Ti, kteří rituál nepřežili, byli pohlceni beze stopy, jejich existence se rozplynula v temnotě a zanechala po sobě jen ozvěny jejich posledních myšlenek.
+			</p>
+			<p>
+			Posíleni novou mocí, Morhold a jeho následovníci vyrazili do boje. S nově nabytou silou byli neporazitelní. Přeživší Stínoví elfové, poslední Strážci země a všechny zbylé bytosti, které se odmítly podvolit, byly postupně vyhlazeny nebo zotročeny. Magické uzly, kdysi sloužící k udržení rovnováhy, byly přesměrovány tak, aby podporovaly Stínovou magii, čímž došlo k nevratné proměně krajiny. Země se stala pustou, vyschlou, její životní síla byla obětována na oltář temnoty. Tam, kde kdysi stávala posvátná města elfů, se nyní rozkládaly ruiny, ve kterých se šeptalo o kletbách tak starých, že si je už ani temnota sama nepamatovala.
+			</p>
+			<p>
+			Z této doby vzešla dynastie Stínných kněží – vládců spojených se Stínem natolik, že jejich moc i samotná existence byla na něm závislá. Jejich krev byla napuštěna esencí temnoty, jejich duše patřily bytosti, která stále čekala na svou splátku. Temná říše Morhold byla stvořena a její osud zpečetěn. Morhold se stal prvním Temným králem a jeho jméno se od té doby stalo synonymem nejen pro sílu, ale i pro pakt, který se jednoho dne bude muset splatit. Každý Stínný kněz věděl, že den účtování se blíží, ale nikdo nevěděl, jaký druh pohromy na ně čeká. Zatímco se Morholdova říše rozšiřovala, v hlubinách Stínu cosi rostlo a pozorovalo je, čekající na okamžik, kdy si přijde vybrat svou daň.
+			</p>
+            <div class="image">
+                <img src="IMG/temna_era.webp" alt="Temná éra Morholdu">
+            </div>
+        </div>
+        
+        <div class="section" id="Vrchol">
+            <h2>Vrchol Temné říše Morhold a první známky krize </h2>
+			<h3>(~1000 let před současností)</h3>
+			
+			<p>
+            Po staletí Temná říše Morhold expandovala, dobývala okolní území a upevňovala svou magickou nadvládu. Mnohá království padla pod tíhou jejích armád, které nejenže ovládaly smrtící magii, ale i samotné zákony života a smrti. Vrcholným úspěchem této éry bylo vytvoření Stínových legií – vojáků, jejichž těla byla napuštěna esencí Stínu. Byli to bojovníci bez potřeby jídla, spánku či odpočinku. Necítili bolest, nepodléhali běžným zraněním a jejich loajalita byla absolutní. Každý, kdo se jim postavil, padl a každý dobytý národ se musel rozhodnout mezi otroctvím nebo naprostým zničením.
+			</p>
+			<p>
+			Ale jak říše rostla, její vlastní síla se stávala jejím prokletím. Stín, ze kterého Morhold čerpal svou moc, nebyl pouze nástrojem – byl entitou s vlastními cíli a potřebami. Po generace kněží a mágové Morholdu věřili, že mohou sílu Stínu ovládnout, že mohou Stín využívat, aniž by zaplatili skutečnou cenu. Avšak s každým dalším rituálem se objevovaly varovné znaky, které naznačovaly, že jejich vláda není tak stabilní, jak si mysleli.
+			</p>
+			<p>
+			První varováním byla ztráta kontroly nad některými rituály. Pokusy o vytvoření dokonalejších válečníků vedly ke vzniku nestabilních tvorů – Stínových chimér. Byla to bytosti vyvržené z temnoty, deformované, beztvaré a bez vlastní vůle, které se vymkly kontrole a začaly požírat samotné kněží, kteří je stvořili. Některé z těchto chimér se skrývaly ve stínech měst Morholdu, napadající nic netušící obyvatele v temných uličkách. Jiným se podařilo uprchnout do pustin a proměnily se v pohromy, které požíraly vše živé.
+			</p>
+			<p>
+			Druhé varování bylo mnohem děsivější. Kněží Koncilu Stínů začali ve svých snech slyšet hlasy – hluboké, nepřirozené šepoty, které si žádaly víc. Původní pakt, uzavřený mezi Morholdem a entitou Stínu, nebyl bez následků. Po staletích využívání jeho moci začalo být jasné, že Stín něco očekává. Mezi kněžími se začaly šířit šeptané legendy o „Splátce“, dni, kdy si Stín přijde vybrat svůj dluh. Každý další rituál jen urychloval tento neodvratitelný osud.
+			</p>
+			<p>
+			Strach z tohoto osudu přiměl Koncil Stínů hledat způsoby, jak pakt obejít. Jejich odpovědí byly rituály nesmrtelnosti – pokusy o vytvoření bytostí, které by nikdy neumíraly, a tím by se vyhnuly nutnosti platit cenu za svou moc. Kněží prováděli experimenty, které měly přetvořit jejich těla v nesmrtelné nádoby pro magii, pokoušeli se zbavit se svých fyzických těl a stát se bytostmi čistého stínu. Někteří uspěli – avšak za cenu toho, že ztratili jakoukoli podobu lidství a jejich mysl se rozpadla v nekonečné hloubce Stínu.
+			</p>
+			<p>
+			Zatímco Koncil hledal odpovědi, Stín byl netrpělivý. V určitých částech říše začaly mizet celé vesnice beze stopy. Ti, kdo přežili, vyprávěli o tom, jak se temnota vkradla do jejich domovů, jak se jejich blízcí proměnili v prázdné schránky bez duše. Každou noc byla říše pohlcována vlastními silami, které už nebyly pod kontrolou svých tvůrců. Někteří kněží se začali bouřit – požadovali ukončení experimentů a hledání jiného řešení. Jiní byli přesvědčeni, že musí pokračovat dál, že jediný způsob, jak přežít, je ještě více splynout se Stínem.
+			</p>
+			<p>
+			Rozpory mezi kněžími a vládnoucí elitou začaly oslabovat říši zevnitř. Vznikaly tajné frakce, které hledaly způsob, jak pakt přerušit, zatímco jiní se snažili připravit říši na den, kdy si Stín přijde vybrat svůj dluh. Čas se krátil. Temnota, která byla kdysi spojencem Morholdu, se pomalu stávala jeho katem.
+			</p>
+            <div class="image">
+                <img src="IMG/pad.webp" alt="Současnost Morholdu">
+            </div>
+        </div>
+		<div class="section" id="soucasnost">
+            <h2>Moderní éra: Stín se blíží</h2>
+			<h3>(~současnost)</h3>
+            <p>
+			Po staletí Temná říše Morhold expandovala, dobývala okolní území a upevňovala svou magickou nadvládu. Mnohá království padla pod tíhou jejích armád, které nejenže ovládaly smrtící magii, ale i samotné zákony života a smrti. Vrcholným úspěchem této éry bylo vytvoření Stínových legií – vojáků, jejichž těla byla napuštěna esencí Stínu. Byli to bojovníci bez potřeby jídla, spánku či odpočinku. Necítili bolest, nepodléhali běžným zraněním a jejich loajalita byla absolutní. Každý, kdo se jim postavil, padl a každý dobytý národ se musel rozhodnout mezi otroctvím nebo naprostým zničením.
+			</p>
+			<p>
+			Ale jak říše rostla, její vlastní síla se stávala jejím prokletím. Stín, ze kterého Morhold čerpal svou moc, nebyl pouze nástrojem – byl entitou s vlastními cíli a potřebami. Po generace kněží a mágové Morholdu věřili, že mohou sílu Stínu ovládnout, že mohou Stín využívat, aniž by zaplatili skutečnou cenu. Avšak s každým dalším rituálem se objevovaly varovné znaky, které naznačovaly, že jejich vláda není tak stabilní, jak si mysleli.
+			</p>
+			<p>
+			První varováním byla ztráta kontroly nad některými rituály. Pokusy o vytvoření dokonalejších válečníků vedly ke vzniku nestabilních tvorů – Stínových chimér. Byla to bytosti vyvržené z temnoty, deformované, beztvaré a bez vlastní vůle, které se vymkly kontrole a začaly požírat samotné kněží, kteří je stvořili. Některé z těchto chimér se skrývaly ve stínech měst Morholdu, napadající nic netušící obyvatele v temných uličkách. Jiným se podařilo uprchnout do pustin a proměnily se v pohromy, které požíraly vše živé.
+			</p>
+			<p>
+			Druhé varování bylo mnohem děsivější. Kněží Koncilu Stínů začali ve svých snech slyšet hlasy – hluboké, nepřirozené šepoty, které si žádaly víc. Původní pakt, uzavřený mezi Morholdem a entitou Stínu, nebyl bez následků. Po staletích využívání jeho moci začalo být jasné, že Stín něco očekává. Mezi kněžími se začaly šířit šeptané legendy o „Splátce“, dni, kdy si Stín přijde vybrat svůj dluh. Každý další rituál jen urychloval tento neodvratitelný osud.
+			</p>
+			<p>
+			Strach z tohoto osudu přiměl Koncil Stínů hledat způsoby, jak pakt obejít. Jejich odpovědí byly rituály nesmrtelnosti – pokusy o vytvoření bytostí, které by nikdy neumíraly, a tím by se vyhnuly nutnosti platit cenu za svou moc. Kněží prováděli experimenty, které měly přetvořit jejich těla v nesmrtelné nádoby pro magii, pokoušeli se zbavit se svých fyzických těl a stát se bytostmi čistého stínu. Někteří uspěli – avšak za cenu toho, že ztratili jakoukoli podobu lidství a jejich mysl se rozpadla v nekonečné hloubce Stínu.
+			</p>
+			<p>
+			Zatímco Koncil hledal odpovědi, Stín byl netrpělivý. V určitých částech říše začaly mizet celé vesnice beze stopy. Ti, kdo přežili, vyprávěli o tom, jak se temnota vkradla do jejich domovů, jak se jejich blízcí proměnili v prázdné schránky bez duše. Každou noc byla říše pohlcována vlastními silami, které už nebyly pod kontrolou svých tvůrců. Někteří kněží se začali bouřit – požadovali ukončení experimentů a hledání jiného řešení. Jiní byli přesvědčeni, že musí pokračovat dál, že jediný způsob, jak přežít, je ještě více splynout se Stínem.
+			</p>
+			<p>
+			Rozpory mezi kněžími a vládnoucí elitou začaly oslabovat říši zevnitř. Vznikaly tajné frakce, které hledaly způsob, jak pakt přerušit, zatímco jiní se snažili připravit říši na den, kdy si Stín přijde vybrat svůj dluh. Čas se krátil. Temnota, která byla kdysi spojencem Morholdu, se pomalu stávala jeho katem.
+			</p>
+            <div class="image">
+                <img src="IMG/castle.webp" alt="Současnost Morholdu">
+            </div>
+        </div>
+    </div>
+	
+
+    
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#pocatek">Počátek Morholdu</a>
+        <a href="#valky">Války a dobyvačné tažení</a>
+        <a href="#temna_era">Temná éra a pád</a>
+        <a href="#Vrchol">Současný Morhold</a>
+        <a href="#soucasnost">Moderní éra</a>
+		<a href="./morhold_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+	<script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

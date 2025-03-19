@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politika a vláda Temné Říše Morhold</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: #0d0d0d;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .container {
+            flex: 1;
+            padding: 20px;
+            max-width: 900px;
+            background: rgba(20, 20, 20, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            margin: 20px auto;
+        }
+        .sidebar {
+            width: 250px;
+            background: rgba(20, 20, 20, 0.9);
+            padding: 20px;
+            position: fixed;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow-y: auto;
+            box-shadow: -2px 0 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .sidebar.closed {
+            transform: translateX(100%);
+        }
+        .toggle-btn {
+            position: fixed;
+            right: 400px;
+            top: 20px;
+            background: #ffcc00;
+            color: #000;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .back-btn {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            background: #ffcc00;
+            color: #000;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(50, 50, 50, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+			text-decoration: none;
+        }
+        .section h2 {
+            color: #ffcc00;
+        }
+        .sidebar a {
+            display: block;
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 5px 0;
+        }
+        .image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+		.next-arrow {
+            display: block;
+            text-align: right;
+            margin-top: 20px;
+            font-size: 2em;
+            color: #ffcc00;
+            text-decoration: none;
+        }
+		a{
+			text-decoration: none;
+        }
+		p{
+		 color: #FFFFFF;
+		}
+		h3,h4{
+		  color: #ffcc00;
+		}
+		
+    </style>
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+		<h1>Kultura a obyvatelé Temné říše Morhold</h1>
+		<p>Morholdská populace je různorodá, přestože je většina obyvatel spojena s temnou magií. Místní lidé mají často bledou pleť a oči ztmavené dlouhodobým vystavením stínové energii. Kromě běžných lidí zde žijí i mutované bytosti, které prošly rituály přeměny a nesou v sobě část Stínové magie.</p>
+        <div class="section" id="obyvatelstvo">
+            <h2> Obyvatelstvo Morholdu</h2>
+            <p>Morholdská populace je různorodá, přestože je většina obyvatel spojena s temnou magií. Místní lidé mají často bledou pleť a oči ztmavené dlouhodobým vystavením stínové energii. Kromě běžných lidí zde žijí i mutované bytosti, které prošly rituály přeměny a nesou v sobě část Stínové magie.</p>
+			<p>	Společenské vrstvy</p>
+			<ul>
+		
+			<li>Koncil Stínů – Vládnoucí elita, skládající se z nejmocnějších mágů a kněží, kteří rozhodují o chodu říše.</li>
+			<li>Stínní kněží – Náboženská vrstva, která řídí chrámy a rituály.</li>
+			<li>Magické rody – Mocné rodiny, jejichž krevní linie sahají k prvním uzavřeným paktům se Stínem.</li>
+			<li>Obyčejní Morholdští – Lidé, kteří přežívají ve městech a vesnicích pod vládou Koncilu Stínů.</li>
+			<li>Vyvrženci a mutanti – Jedinci, kteří byli poškozeni experimenty či rituály, žijící na okraji společnosti.</li>
+			</ul>
+        </div>
+		
+		 <div class="section" id="směr">
+            <h2>Hlavní náboženský směr: Kult Stínového Paktu</h2>
+            <p>V Temné říši Morhold dominuje náboženství známé jako Kult Stínového Paktu. Tento kult se soustředí na uctívání temných entit a sil, které obyvatelé věří, že vládnou světu zpoza závoje reality. Pakt s těmito entitami údajně přináší moc, ochranu a hlubší porozumění tajemstvím existence, avšak za cenu absolutní oddanosti.</p>
+			<p>	Hlavní hodnoty</p>
+			<ul>
+		
+			<li>Moc: V Morholdu je moc základní hodnotou a měřítkem úspěchu. Temné entity jsou považovány za zdroj nejvyšší moci.</li>
+			<li>Věrnost: Každý člen kultu je zavázán svému pánu nebo patronovi. Věrnost je klíčová k udržení rovnováhy v říši.</li>
+			<li>Tajemství: Znalosti a tajemství jsou ceněny více než zlato. Sdílení tajemství je považováno za akt zrady.</li>
+
+			</ul>
+			<p>Rituály a svátky</p>
+			<ul>
+		
+			<li>Noc Stínů: Nejvýznamnější svátek, kdy se obyvatelé shromažďují k oslavě stínových sil. Při tomto rituálu se obětují cenné předměty, a někdy dokonce živé bytosti, jako důkaz loajality temným patronům.</li>
+			<li>Přísaha Paktu: Obřad, při kterém se noví členové zavazují věrností konkrétní temné entitě. Tento rituál zahrnuje složitá kouzla a vázání duše na patrona.</li>
+			<li>Závoj Temnoty: Pravidelný měsíční rituál, během kterého kněží Morholdu předpovídají budoucnost a hledají znamení stínů v kouři a krvi.</li>
+
+			</ul>
+			<p>Místa duchovního významu</p>
+			<ul>
+		
+			<li>Citadela Stínů: Hlavní chrám Temné říše, kde se shromažďují nejvyšší kněží a kde probíhají nejsilnější magické rituály.</li>
+			<li>Šeptající Stín (Sibilus Umbra): Druhá nejuctívanější entita, ztělesnění intrik a tajemství.</li>
+
+			</ul>
+			<p>Božstva</p>
+			<ul>
+		
+			<li>Stínová Matrona (Umbra Matrona): Prvotní entita temnoty a moci, která stojí na vrcholu Stínového Paktu. Věří se, že propůjčuje magickou sílu výměnou za absolutní věrnost.
+
+			</li>
+			<li>Krvavý oltář: Místo, kde se vykonávají největší oběti, zejména během Noci Stínů.</li>
+			<li>Hlubiny Paktu: Podzemní jeskyně a tunely, kde údajně sídlí některé temné entity. Tato místa jsou přístupná pouze vyvoleným.</li>
+
+			</ul>
+        </div>
+		<div class="section" id="kultura">
+            <h2> Obyvatelstvo Morholdu</h2>
+            <p>Morholdská kultura je silně ovlivněna temnotou a magií. Umění je často ponuré, s prvky stínových vzorů a symboliky temných sil. Hudba v Morholdu je rituální a hypnotická, často využívající hluboké chorály a zvuky rezonujících kovových nástrojů.</p>
+			<p>Tradiční formy umění:</p>
+			<ul>
+		
+			<li>Magická kaligrafie: Runové písmo využívané nejen k psaní, ale i k sesílání kouzel.</li>
+			<li>Stínové sochy: Sochy vyrobené z černého kamene, které jsou magicky oživené a někdy i schopné pohybu.</li>
+			<li>Tetování Stínu: Rituální značení, které slouží jako symbol věrnosti patronům a zároveň jako ochrana před nepřátelskou magií.</li>
+			</ul>
+        </div>
+		
+		<a href="morhold_osobnosti_page.html">
+        <div class="section" id="osobnosti">
+            <h2>Významné osobnosti</h2>
+            
+			<a class="next-arrow">➜</a>
+        </div>
+        </a>
+		
+		<div class="section" id="Vlivy">
+            <h2>Vlivy zvenčí a změny v kultuře</h2>
+            <p>Přestože je Morhold považován za izolovaný, kontakty s Temnohvozdem a jinými oblastmi postupně přinášejí změny. Některé pohraniční oblasti začaly kombinovat temné rituály s přírodním kultem, což je pravověrnými kněžími považováno za kacířství.</p>
+			<p>Existují také skupiny skeptiků, kteří zpochybňují víru v temné entity a pokoušejí se najít jiné zdroje moci. Tito jednotlivci jsou však často považováni za kacíře a pronásledováni.</p>
+
+        </div>
+    </div>
+    
+    <div class="sidebar closed" id="sidebar">
+		
+        <h2>Obsah</h2>
+        <a href="#obyvatelstvo">Vláda a řízení říše</a>
+        <a href="#směr">Vládce: Arcimág Vorthal</a>
+        <a href="#kultura">Koncil Stínů</a>
+        <a href="#osobnosti">Zákony a spravedlnost</a>
+        <a href="#Vlivy">Diplomacie a zahraniční vztahy</a>
+		<a href="morhold_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+    
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>
