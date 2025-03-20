@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kultura a obyvatelé Lesní říše Sylvador</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Kultura a obyvatelé Lesní říše Sylvador</h1>
+        <p>Sylvadorští obyvatelé žijí v harmonii s přírodou a jejich kultura je silně ovlivněna filosofií druidismu. Respekt k lesům, tradicím a magii je klíčovou součástí jejich každodenního života. Obyvatelé Sylvadoru se spoléhají na přírodní magii, druidické rituály a hluboké duchovní propojení s lesem.</p>
+        
+        <div class="section" id="obyvatelstvo">
+            <h2>Obyvatelstvo Sylvadoru</h2>
+            <p>Obyvatelé Sylvadoru jsou převážně elfové, pololidé a lidé, kteří přijali způsob života v souladu s přírodou. Každý jedinec má své místo v ekosystému lesa a žije podle rovnováhy mezi jeho potřebami a potřebami přírody.</p>
+            <p>Společenské vrstvy:</p>
+            <ul>
+                <li><strong>Druidická rada</strong> – Nejvyšší duchovní a politická autorita, která udržuje rovnováhu říše.</li>
+                <li><strong>Strážci lesa</strong> – Elitní válečníci a ochránci posvátných míst.</li>
+                <li><strong>Obyčejní Sylvadorští</strong> – Rolníci, řemeslníci, léčitelé a další členové komunity.</li>
+                <li><strong>Poutníci a mystici</strong> – Ti, kteří cestují mezi kmeny a šíří staré učení.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="směr">
+            <h2>Hlavní náboženský směr: Učení Lesního Otce</h2>
+            <p>Lesní říše Sylvador je hluboce duchovně založená a uctívá Lesního Otce, strážce přírody a rovnováhy. Tento druidický směr zdůrazňuje respekt k přírodě, ochranu slabších a moudrost, která přichází s porozuměním lesním zákonům.</p>
+            <p>Hlavní hodnoty:</p>
+            <ul>
+                <li><strong>Harmonie s přírodou</strong> – Každý čin by měl být v souladu s přírodními cykly.</li>
+                <li><strong>Ochrana</strong> – Povinnost chránit nejen své blízké, ale i lesy a magické bytosti.</li>
+                <li><strong>Moudrost</strong> – Poznání a tradice jsou klíčem k přežití a prosperitě.</li>
+            </ul>
+            <p>Rituály a svátky:</p>
+            <ul>
+                <li><strong>Oslava Dne Stromů</strong> – Každoroční výsadba stromů jako symbol obnovy.</li>
+                <li><strong>Noc Lesních Stínů</strong> – Mystický rituál spojení s duchy lesa.</li>
+                <li><strong>Rituál Lesní Krve</strong> – Oslava propojení mezi lidmi a přírodou skrze speciální nápoj.</li>
+            </ul>
+            <p>Místa duchovního významu:</p>
+            <ul>
+                <li><strong>Prastarý Háj</strong> – Nejposvátnější místo v srdci lesa.</li>
+                <li><strong>Kamenný Kruh Rovnováhy</strong> – Centrum druidických rituálů.</li>
+                <li><strong>Zpívající Jeskyně</strong> – Místo, kde se ozývají melodie samotné přírody.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="kultura">
+            <h2>Umění, hudba a tradice</h2>
+            <p>Sylvadorská kultura je zaměřena na umění inspirované přírodou. Hudba se skládá ze zvuků lesa, flétnových melodií a rytmů bubnů, které napodobují šepot větru a proudění řek. Umění často zahrnuje dřevořezby, tkané vzory a přírodní barviva.</p>
+            <p>Tradiční formy umění:</p>
+            <ul>
+                <li><strong>Dřevorytectví</strong> – Mistři řezbáři vytvářejí složité ornamenty do dřeva.</li>
+                <li><strong>Bylinná kaligrafie</strong> – Psací technika využívající rostlinné esence.</li>
+                <li><strong>Tanec větru</strong> – Starobylá forma rituálního tance, která symbolizuje spojení s lesem.</li>
+            </ul>
+        </div>
+        
+        <div class="section" id="Vlivy">
+            <h2>Vlivy zvenčí a změny v kultuře</h2>
+            <p>Ačkoliv Sylvador dlouho zůstával izolovaný, rostoucí kontakt s jinými říšemi začíná přinášet kulturní změny. Některé komunity přijímají nové způsoby obchodování, zatímco jiní považují jakýkoli vnější vliv za ohrožení tradic.</p>
+            <p>Objevují se skupiny mladších druidů, kteří zpochybňují některé staré praktiky a hledají nový způsob, jak propojit Sylvador se světem, aniž by ohrozili jeho rovnováhu.</p>
+        </div>
+    </div>
+    
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#obyvatelstvo">Obyvatelstvo</a>
+        <a href="#směr">Náboženství</a>
+        <a href="#kultura">Umění a tradice</a>
+        <a href="#Vlivy">Vlivy zvenčí</a>
+		<a href="sylvador_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+    
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>
