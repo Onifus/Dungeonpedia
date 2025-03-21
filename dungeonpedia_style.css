@@ -40,16 +40,7 @@ body {
             border: none;
             cursor: pointer;
         }
-        .back-btn {
-            display: block;
-            margin-top: 20px;
-            padding: 10px;
-            background: #ffcc00;
-            color: #000;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 5px;
-        }
+        
         .section {
             margin: 20px 0;
             padding: 15px;
@@ -93,4 +84,14 @@ body {
 		}
 		h3,h4{
 		  color: #ffcc00;
+		}
+		.back-btn {
+			display: block;
+			margin-top: 20px;
+			padding: 10px;
+			background: #ffcc00;
+			color: #000 !important; /* Specificky nastavená bílá barva */
+			text-align: center;
+			text-decoration: none;
+			border-radius: 5px;
 		}
