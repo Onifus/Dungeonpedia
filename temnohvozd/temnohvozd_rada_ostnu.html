@@ -1,0 +1,62 @@
+<!-- Rada Ostnů Temnohvozdu -->
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rada Ostnů Temnohvozdu</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+		<h1>Rada Ostnů Temnohvozdu</h1>
+		<p>Rada Ostnů je nejvyšší správní a poradní orgán království Temnohvozd. Je tvořena zástupci šlechtických rodů, druidických kruhů a vojenských velitelů. Každá z těchto skupin přináší do rady jiný pohled – od ochrany tradic, přes duchovní rovnováhu až po pragmatickou obranu hranic. Rada byla vytvořena za účelem udržení rovnováhy mezi různými mocenskými skupinami, avšak dnes je často dějištěm hlubokých sporů a zákulisních dohod.</p>
+
+		<div class="section" id="vznik_rady">
+			<h2>Původ a vznik Rady Ostnů</h2>
+			<p>Rada vznikla krátce po sjednocení království pod klanem Temných ostnů. V době, kdy bylo třeba udržet jednotu mezi dříve znepřátelenými klany a oblastmi, sloužila rada jako fórum pro vyjednávání a rozdělování moci. Prvotní myšlenka byla jednoduchá – každý region bude mít svého mluvčího, který bude hájit zájmy svého lidu a zajistí, že žádná oblast nebude přehlížena.</p>
+			<p>Postupem času se však tento ideál začal drolit. Mocní jednotlivci, ctižádostiví velitelé a vychytralí diplomaté začali zneužívat svůj vliv, a z rady se stalo nejen centrum vlády, ale i síť politických her, aliancí a zrad. Přesto si Rada udržela svůj status a její existence zůstává pilířem politického systému Temnohvozdu.</p>
+		</div>
+
+		<div class="section" id="struktura_rady">
+			<h2>Struktura Rady Ostnů</h2>
+			<p>Rada je rozdělená do tří mocenských bloků – každý reprezentuje jiný aspekt království a jiný pohled na jeho směřování:</p>
+			<ul>
+				<li><strong>Frakce šlechty</strong> – Vedena vévodkyní Irinou Hlubočanskou, vlivnou a obratnou političkou, která usiluje o větší nezávislost jednotlivých regionů. Podporuje decentralizaci moci a návrat k tradičním autonomním správám, jaké fungovaly v době před sjednocením.</li>
+				<li><strong>Frakce duchovních a druidů</strong> – Vede ji uctívaná druidka Mirea, která bojuje za zachování rovnováhy s přírodou a obranu starých rituálů. Tato frakce vystupuje proti industrializaci, agresivnímu využívání magie a přílišnému kontaktu s cizími mocnostmi.</li>
+				<li><strong>Frakce vojenských vůdců</strong> – Velitel Tarik Levhart vede tuto skupinu se zaměřením na bezpečnost a obranu. Jeho přívrženci požadují větší rozpočet na armádu, lepší vybavení hraničních pevností a přísnější zákony vůči banditům a špionům.</li>
+			</ul>
+			<p>Ačkoli oficiálně mají všechny frakce stejnou váhu, v praxi se rovnováha sil mění podle aktuálních krizí, diplomatických dohod a osobních paktů mezi jednotlivými členy rady.</p>
+		</div>
+
+		<div class="section" id="vliv_rady">
+			<h2>Vliv Rady Ostnů na království</h2>
+			<p>Rada má značný vliv na rozhodování královny Liory, zejména pokud jde o zahraniční politiku, vojenské tažení a rozdělení zdrojů. Královna sice formálně zůstává hlavou státu, ale bez podpory rady je její moc omezená. V důsledku toho musí často činit kompromisy nebo hledat podporu u jedné frakce proti jiné.</p>
+			<p>Někteří členové rady navíc veřejně zpochybňují schopnost Liory vládnout v době krize. Objevují se návrhy na vytvoření regentské rady či rotujícího systému vlády, což by znamenalo konec monarchického dědictví, které sahá až k Tarosu Temnému Ostnu.</p>
+		</div>
+
+		<div class="section" id="soucasne_inriky">
+			<h2>Současné intriky</h2>
+			<p>V současné době je Rada Ostnů rozpolcená. Některé šlechtické rody otevřeně podporují opozici proti královně a tajně uzavírají spojenectví se zahraničními silami – především s Eldarovským svazem a Šerými knížectvími. Tajné obchodní smlouvy a nabídky vojenské pomoci výměnou za vliv jsou čím dál častější.</p>
+			<p>Uvnitř rady operují špehové a námezdní agenti, které využívají jednotlivé frakce k odhalování slabin soupeřů. Nejvíce se hovoří o tajných kontaktech mezi některými vojenskými veliteli a organizací známou jako Stínová liška – síť pašeráků, špionů a bývalých šlechticů, kteří usilují o skrytou mocenskou změnu.</p>
+			<p>Napětí roste. Frakce druidů vyhrožuje odchodem z rady, pokud se nezastaví kácení posvátných hájů pro potřeby rozšiřujících se měst. Armáda zase požaduje více pravomocí a přímý vliv na rozhodování v krizových oblastech. V tomto napjatém prostředí se každé slovo, každý návrh a každý hlas v radě může stát jiskrou, která zažehne plamen občanského konfliktu.</p>
+		</div>
+	</div>
+    
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#vznik_rady">Původ a vznik</a>
+        <a href="#struktura_rady">Struktura Rady</a>
+        <a href="#vliv_rady">Vliv na království</a>
+        <a href="#soucasne_inriky">Současné intriky</a>
+        <a href="temnohvozd_main_page.html" class="back-btn">Zpět</a>
+    </div>
+    
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

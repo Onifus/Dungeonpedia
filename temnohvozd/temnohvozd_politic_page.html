@@ -1,0 +1,60 @@
+<!-- Politika Temnohvozdu -->
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politika Temnohvozdu</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+		<h1>Politika a vláda Temnohvozdu</h1>
+		<p>Temnohvozd je královstvím s bohatou politickou strukturou, kde se střetávají tradice, mocenské zájmy a snahy o udržení rovnováhy. Vládne zde dynastie Temných ostnů, avšak skutečná moc je často dělena mezi vládnoucí panovnici, Radu Ostnů a jednotlivé vlivné rody, které formují samotný běh říše. Politická rovnováha je křehká a často závisí na tajných dohodách, spojenectvích a skrytých intrikách.</p>
+
+		<div class="section" id="kralovna">
+			<h2>Královna Liora z klanu Temných ostnů</h2>
+			<p>Současná vládkyně Temnohvozdu, královna Liora, pochází z vládnoucí linie klanu Temných ostnů, přímé linie Tarose Temného Ostna. Její vláda je poznamenána snahou zachovat jednotu v době rostoucích rozporů mezi jednotlivými frakcemi, klimatických otřesů a zahraničních tlaků.</p>
+			<p>Liora je známá svou umírněností, vzdělaností a diplomatickým přístupem. Navzdory tomu čelí neustálému tlaku – nejen zvenčí, ale i zevnitř. Někteří ji považují za slabou kvůli její neochotě řešit konflikty silou, jiní naopak za jediný stabilizující prvek v rozpadající se mocenské rovnováze. Přestože je oficiálně nejvyšší panovnicí, musí každé rozhodnutí opatrně vyvažovat s postojem Rady Ostnů.</p>
+		</div>
+		
+		<a href="temnohvozd_rada_ostnu">
+			<div class="section" id="rada_ostnu">
+				<h2>Rada Ostnů</h2>
+				<p>Rada Ostnů představuje klíčový mocenský orgán v Temnohvozdu. Tvořena je zástupci šlechtických rodů, druidickými kruhy a vysoce postavenými vojenskými veliteli. Vznikla po sjednocení říše a její úlohou bylo udržet křehkou rovnováhu mezi jednotlivými klany a regiony. Dnes je centrem politických machinací, aliancí i otevřených střetů.</p>
+				<ul>
+					<li><strong>Frakce šlechty</strong> – Vede ji vévodkyně Irina Hlubočanská, tvrdá a ambiciózní žena s rozsáhlou sítí spojenců. Usiluje o větší regionální autonomii a navrhuje oslabení koruny výměnou za ekonomické reformy.</li>
+					<li><strong>Frakce duchovních a druidů</strong> – Pod vedením druidky Mirea, strážkyně rovnováhy, která klade důraz na ochranu přírodních cyklů a tradic. Frakce se staví proti rozšiřování měst, narušování posvátných míst a obchodním dohodám se zahraničními mocnostmi.</li>
+					<li><strong>Frakce vojenských vůdců</strong> – Vede ji Tarik Levhart, zkušený generál a veterán z pohraničí. Jeho frakce požaduje větší pravomoci armády, lepší obranné rozpočty a přísnější zákony vůči vnitřnímu neklidu.</li>
+				</ul>
+				<p>Tyto frakce se často dostávají do střetů. V situacích krizí může dojít k dočasné jednotě, ale ve většině případů dominují vzájemné spory a touha po moci.</p>
+				<a class="next-arrow">➜</a>
+			</div>
+		</a>
+
+		<div class="section" id="intriky">
+			<h2>Politické intriky</h2>
+			<p>Politická scéna Temnohvozdu je prorostlá spletí intrik, tajných aliancí a skrytých zájmů. Některé šlechtické rody otevřeně podporují reformy, zatímco jiné potají sabotují královnina rozhodnutí, aby posílily své vlastní postavení. Zvěsti o spojenectví mezi frakcemi rady a cizími mocnostmi, jako je Eldarovský svaz, nabývají na síle.</p>
+			<p>Stále častěji se hovoří o infiltraci banditů známých jako Stínová liška do struktur nižší šlechty a obchodních cechů. Tito bandité nejsou pouze zločinci – jsou považováni za nástroj politického nátlaku, námezdné agenty či vyjednavače bez pravidel.</p>
+			<p>Některé indicie naznačují existenci skryté frakce v samotné Radě Ostnů – volně sdružené aliance jednotlivců z různých bloků, která si klade za cíl změnit celý systém vlády a nahradit monarchii kolektivní radou bez koruny. Zda se jedná o blud nebo skutečnou hrozbu, zůstává předmětem spekulací.</p>
+			<p>Temnohvozd tak stojí na rozcestí. Zda bude následovat cestu reforem, tvrdého upevnění moci, nebo se rozpadne do soupeřících frakcí, závisí na rozhodnutích, která se odehrávají za zavřenými dveřmi kamenných síní Rady Ostnů.</p>
+		</div>
+	</div>
+
+    
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#kralovna">Královna Liora</a>
+        <a href="#rada_ostnu">Rada Ostnů</a>
+        <a href="#intriky">Politické intriky</a>
+        <a href="temnohvozd_main_page.html" class="back-btn">Zpět</a>
+    </div>
+    
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>
