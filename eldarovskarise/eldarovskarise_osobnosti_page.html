@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Významné osobnosti Eldarovské říše</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Významné osobnosti Eldarovské říše</h1>
+        <p>Eldarovská říše je domovem mnoha výjimečných osobností, které svou moudrostí, odvahou a vírou v Cestu Vyváženého Koloběhu formovaly její osud. Od císařského trůnu až po vzdálené filozofy a generály – každý z nich přispěl k zachování rovnováhy v měnícím se světě.</p>
+
+        <div class="section" id="Liora">
+            <h2>Císařovna Liora II – Strážkyně Rovnováhy</h2>
+            <p><strong>Postavení:</strong> Vládnoucí císařovna Eldarovské říše.</p>
+            <p><strong>Schopnosti:</strong> Vynikající diplomatka a filozofka, vzdělaná v umění Koloběhu a státnického vyvažování moci.</p>
+            <p><strong>Charakter:</strong> Uvážlivá, spravedlivá, hluboce zakořeněná ve víře v harmonii.</p>
+            <p>Liora je považována za jednu z nejosvícenějších panovnic své doby. Usiluje o zachování stability říše prostřednictvím rozumu, rovnováhy a dialogu. Podporuje reformy v oblasti vzdělávání, diplomacie a rovného zastoupení regionů. Veřejně se účastní rituálů Cesty a klade důraz na morální zodpovědnost panovníka vůči lidem i přírodě.</p>
+			<img src="IMG/Liora.webp" width="95%">
+        </div>
+
+        <div class="section" id="Seron">
+            <h2>Seron Talvereth – Generál čtyř hranic</h2>
+            <p><strong>Postavení:</strong> Vrchní velitel obranných sil říše.</p>
+            <p><strong>Schopnosti:</strong> Taktik s hlubokým pochopením pohybu armád i myšlenkových toků protivníka.</p>
+            <p><strong>Charakter:</strong> Disciplinovaný, loajální a nekompromisní v ochraně říše.</p>
+            <p>Seron vede obranu Eldarovských hranic s neochvějným odhodláním. Sloužil během Separatistické války a dodnes je považován za válečného hrdinu. Ačkoli často vystupuje chladně, je znám svou oddaností císařovně a filozofii rovnováhy, kterou se snaží uplatňovat i na bitevním poli.</p>
+			<img src="IMG/Seron.webp" width="95%">
+        </div>
+
+        <div class="section" id="Velara">
+            <h2>Velara Eithen – Architektka obrody</h2>
+            <p><strong>Postavení:</strong> Vedoucí urbanistka a hlavní správkyně obnovy severních provincií.</p>
+            <p><strong>Schopnosti:</strong> Vizionářská plánovačka, spojuje přírodní principy s technikou a kulturou.</p>
+            <p><strong>Charakter:</strong> Idealistická, kreativní, pevně věřící v sílu spolupráce.</p>
+            <p>Velara byla hlavní iniciátorkou projektů obnovy po Separatistické válce. Pod jejím vedením vznikla nová síť městských center, kde architektura, ekologie a duchovní tradice fungují v symbióze. Její přístup se stal vzorem pro další generace stavitelů a myslitelů.</p>
+			<img src="IMG/Liora.webp" width="95%">
+        </div>
+
+        <div class="section" id="Thamriel">
+            <h2>Thamriel Nyros – Mistr Knihovny Rovnováhy</h2>
+            <p><strong>Postavení:</strong> Nejvyšší kurátor vědění a mág-filosof.</p>
+            <p><strong>Schopnosti:</strong> Ovládá harmonickou magii, spojuje magii se znalostmi a filozofií.</p>
+            <p><strong>Charakter:</strong> Tichý, moudrý, s neukojitelnou touhou po pravdě.</p>
+            <p>Thamriel je strážcem největších pokladů vědění Eldarovské říše. Věří, že porozumění je klíčem k přežití civilizace, a že magie bez morálního základu vede k pádu. Vedl mnoho expedic za poznáním a byl autorem kodexu, který definuje roli učenců v politice a společnosti.</p>
+			<img src="IMG/Thamriel.webp" width="95%">
+        </div>
+
+        <div class="section" id="Enares">
+            <h2>Enares Soryel – Hlas z Ostrova Othor</h2>
+            <p><strong>Postavení:</strong> Astronomka, alchymistka a vyslankyně ostrovních rad.</p>
+            <p><strong>Schopnosti:</strong> Věštkyně hvězd, specialistka na transformační elixíry a symbiózu magických prvků.</p>
+            <p><strong>Charakter:</strong> Podmanivá, záhadná, propojující světy ducha a vědy.</p>
+            <p>Enares pochází z hvězdné věže na ostrově Othor a její práce se stala inspirací pro nový směr „nebeské alchymie“. Je také významnou hlasatelkou spolupráce mezi centrální říší a ostrovními komunitami. Podporuje mezioborové výzkumy a duchovní integraci vědy a filozofie.</p>
+			<img src="IMG/Enares.webp" width="95%">
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#Liora">Císařovna Liora</a>
+        <a href="#Seron">Seron Talvereth</a>
+        <a href="#Velara">Velara Eithen</a>
+        <a href="#Thamriel">Thamriel Nyros</a>
+        <a href="#Enares">Enares Soryel</a>
+        <a href="eldarovskarise_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>
