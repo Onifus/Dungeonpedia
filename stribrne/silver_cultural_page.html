@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kultura a obyvatelé Stříbrného vévodství</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Kultura a obyvatelé Stříbrného vévodství</h1>
+        <p>Stříbrné vévodství je říše s bohatou kulturní mozaikou, hluboce zakořeněnou ve své šlechtické tradici, víře ve Stříbrného Strážce a praktickém přístupu ke každodennímu životu. Obyvatelstvo je rozmanité – od horských těžařů přes savanové jezdce až po učené diplomaty v hlavních městech. Každý z těchto lidí přispívá ke kulturnímu dědictví, které formuje identitu vévodství.</p>
+
+        <div class="section" id="obyvatelstvo">
+            <h2>Obyvatelstvo a regionální rozmanitost</h2>
+            <p>Obyvatelstvo vévodství je geograficky i kulturně pestré. V horských oblastech žijí houževnatí horníci a kováři, kteří po generace těží stříbro. V savanách a na planinách najdeme pastevce, obchodní karavany a vojenské posádky. Jižní města jsou naopak centrem vzdělanosti, politiky a víry.</p>
+            <p>Mezi nejvýznamnější regiony patří:</p>
+            <ul>
+                <li><strong>Gnůvský sever</strong> – tvrdé klima, silná vojenská přítomnost, pevnosti a těžba.</li>
+                <li><strong>Podhájská nížina</strong> – zemědělsky plodná oblast s tradičními vesnicemi a festivaly.</li>
+                <li><strong>Pobřežní východ u Dámovic</strong> – oblast obchodu a přístavních cechů, vliv Tralornu a Tilionu je zde patrný.</li>
+                <li><strong>Jihovýchodní Jouvnice</strong> – kulturní a náboženské centrum, kde sídlí velké chrámy a slavnosti se pořádají s velkolepostí.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="kult_stribrneho_strazce">
+            <h2>Kult Stříbrného Strážce</h2>
+            <p>Kult Stříbrného Strážce tvoří duchovní osu vévodství. Jeho chrámová síť zasahuje až do nejmenších vesnic, a jeho socha nechybí v žádném městě. Uctívání této božské bytosti je spojené s hodnotami ochrany, spravedlnosti a prosperity.</p>
+            <p>Kněží Strážce hrají důležitou roli při mediaci sporů, vedení veřejných obřadů a posvěcování nových staveb. Spolupracují s vévodským dvorem a jejich slovo má váhu v politických i právních rozhodnutích.</p>
+        </div>
+
+        <div class="section" id="svatky">
+            <h2>Sváteční kalendář a rituály</h2>
+            <ul>
+                <li><strong>Den Stříbrné Ruky</strong> – slavnost ochrany a cti, lidé se oblékají do stříbrného, konají se veřejné soudy a rytířské turnaje.</li>
+                <li><strong>Obřad Třpytícího Kamene</strong> – rituální oslava dolování, doly se zdobí květinami a kněží žehnají horníkům.</li>
+                <li><strong>Měsíční Lesk</strong> – noční slavnost, kdy se stříbrné artefakty vystavují v měsíčním světle a lidé meditují nad rovnováhou mezi majetkem a vírou.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="umeni">
+            <h2>Umění a řemesla</h2>
+            <p>Stříbrné vévodství je proslulé svou kovotepeckou tradicí. Mistři řemesla vytvářejí složité reliéfy, klenoty a zbraně zdobené symboly Strážce. Stříbro je nejen materiálem, ale i duchovním médiem.</p>
+            <p>Kromě toho je zde rozšířená tradice tapisérií, miniaturních iluminovaných kronik a slavnostních masek, které se používají při obřadech a hrách. Hudba je často doprovázena lyrou a bubínky, zpěv má slavnostní, epický tón.</p>
+        </div>
+
+        <div class="section" id="vzdelani">
+            <h2>Vzdělání a jazyk</h2>
+            <p>Vévodství klade důraz na vzdělání především v oblastech správy, diplomacie a obchodu. Šlechtici i měšťané často posílají své děti na Akademii v Jouvnici nebo do cechovních škol v Podhájí.</p>
+            <p>Oficiálním jazykem je vévodská forma obecné řeči, ale místní dialekty jsou hojně rozšířené. Zvláště v pohraničí se mluví směsicí několika jazyků, což zvyšuje potřebu tlumočníků a diplomacie.</p>
+        </div>
+
+        <div class="section" id="spolecnost">
+            <h2>Společenské hodnoty a životní styl</h2>
+            <p>Společnost je hierarchická, ale zároveň pragmatická. Důraz je kladen na loajalitu, čest a přínos pro celek. Šlechtici mají povinnost pečovat o své panství a poskytovat ochranu, zatímco poddaní očekávají spravedlnost a ochranu svých práv.</p>
+            <p>Ve městech je život rychlý a zaměřený na obchod, zatímco na venkově panuje klidný rytmus sezónních prací a svátků. Místní komunity drží pospolu a každá událost – svatba, pohřeb, žně – je sdíleným zážitkem.</p>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#obyvatelstvo">Obyvatelstvo</a>
+        <a href="#kult_stribrneho_strazce">Kult Strážce</a>
+        <a href="#svatky">Sváteční kalendář</a>
+        <a href="#umeni">Umění a řemesla</a>
+        <a href="#vzdelani">Vzdělání</a>
+        <a href="#spolecnost">Společenské hodnoty</a>
+        <a href="silver_main_page.html" class="back-btn">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

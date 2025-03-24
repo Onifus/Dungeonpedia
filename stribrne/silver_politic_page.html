@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politika a vláda Stříbrného vévodství</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Politika a vláda Stříbrného vévodství</h1>
+        <p>Stříbrné vévodství je monarchie vedená šlechtou a formálně spravovaná vévodou Arlenem II. Vláda je hluboce zakořeněna v tradici a víře ve Stříbrného Strážce. Přestože vévoda drží vrchní moc, systém vlády je komplexní a rozvětvený do několika vrstev, které odrážejí jak historickou loajalitu, tak i potřeby moderního světa.</p>
+
+        <div class="section" id="vedeni">
+            <h2>Vévoda Arlen II. a jeho dvůr</h2>
+            <p>Vévoda Arlen II. je považován za pevného, ale spravedlivého vládce, který usiluje o zachování stability a integrity vévodství. Sídlí v hlavním městě Podháj, odkud koordinuje správu celé země. Vévoda je zároveň považován za světského ochránce víry ve Stříbrného Strážce a jeho politická rozhodnutí jsou často podřízena duchovnímu významu.</p>
+            <p>Jeho dvůr tvoří desítky rádců, úředníků a vyslanců, kteří spravují vnitřní záležitosti, obchod, armádu i zahraniční vztahy. Klíčovými osobami jsou:</p>
+            <ul>
+                <li><strong>Kanzler Roderik z Harlenu</strong> – odpovědný za domácí politiku a daňový systém.</li>
+                <li><strong>Generálka Virela Alstan</strong> – vrchní velitelka armády, známá pro svou přísnost a efektivitu.</li>
+                <li><strong>Světlokněz Elimar</strong> – duchovní rádce vévody, zajišťuje soulad mezi vírou a vládou.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="snemovna">
+            <h2>Šlechtická sněmovna</h2>
+            <p>Stříbrné vévodství je jedním z mála království, které má pevně zakotvenou Šlechtickou sněmovnu – sbor významných rodů, které se podílejí na tvorbě zákonů a kontrole regionální moci. Ačkoli vévoda má poslední slovo, musí brát ohled na hlasy této sněmovny, zejména pokud jde o daně, vojenské výpravy a významné smlouvy.</p>
+            <p>Rody jako <strong>Valmorové</strong> z Dampovic, <strong>Merillové</strong> z Jouynice či <strong>Roanové</strong> z Gnova mají silný vliv a někdy tvoří vlastní aliance. Tyto aliance mohou určovat politické směřování království, často však vedou i ke konfliktům zájmů.</p>
+        </div>
+
+        <div class="section" id="regiony">
+            <h2>Správa regionů</h2>
+            <p>Vévodství je rozděleno na několik správních oblastí – často podle přírodních hranic (lesy, pohoří, říční oblasti). Každému regionu vládne místní šlechtic, který se zodpovídá vévodovi. Tito šlechtici mají značnou autonomii v rozhodování, což umožňuje efektivní správu, ale občas vede k rozporným zájmům mezi regiony.</p>
+            <p>Například horský region <strong>Rudná výšina</strong> je řízen klanem těžařů, kteří se soustředí na dolování a export stříbra. Oproti tomu <strong>Zelené poříčí</strong> se věnuje zemědělství a má ekologické směřování. Tyto odlišnosti nutí vévodu často jednat jako prostředník mezi konkurenčními zájmy.</p>
+        </div>
+
+        <div class="section" id="vera">
+            <h2>Víra a politika</h2>
+            <p>Víra ve Stříbrného Strážce prostupuje celou správní strukturou vévodství. Duchovní z řádu Strážce mají nejen náboženskou autoritu, ale i poradní funkce v regionálních radách. V některých případech mají právo veta, pokud považují rozhodnutí za „neslučitelné s učením Strážce“.</p>
+            <p>Nejdůležitější náboženské události roku jsou spojeny s politickým rozhodováním – například <strong>Obřad Stříbrného klíče</strong>, kdy vévoda obnovuje své závazky vůči víře i lidu.</p>
+        </div>
+
+        <div class="section" id="mezinarodni">
+            <h2>Zahraniční vztahy</h2>
+            <p>Díky své poloze má vévodství složité, ale důležité vztahy se sousedními státy:</p>
+            <ul>
+                <li><strong>Temnohvozd</strong> – Obchodní partner, ale zároveň nestabilní kvůli politickým vřavám v Radě Ostnů.</li>
+                <li><strong>Alborion</strong> – Sluneční říše je klíčovým spojencem v otázkách víry a společné obrany proti Morholdu.</li>
+                <li><strong>Tralorn</strong> – Přestože se jedná o přátelské sousedství, některé okrajové spory o hranice stále přetrvávají.</li>
+                <li><strong>Tilion</strong> – Hvozdná republika je obchodním rivalem, ale diplomatická výměna je aktivní a stabilní.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#vedeni">Vévoda a dvůr</a>
+        <a href="#snemovna">Šlechtická sněmovna</a>
+        <a href="#regiony">Správa regionů</a>
+        <a href="#vera">Víra a politika</a>
+        <a href="#mezinarodni">Zahraniční vztahy</a>
+        <a href="silver_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

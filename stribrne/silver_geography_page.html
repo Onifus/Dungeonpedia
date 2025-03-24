@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geografie Stříbrného vévodství</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+
+    <div class="container">
+        <h1>Geografie Stříbrného vévodství</h1>
+
+        <div class="image">
+            <img src="IMG/stribrne_vevodstvi_mapa.jpg" alt="Mapa Stříbrného vévodství">
+        </div>
+
+        <div class="section" id="uvod">
+            <h2>Úvod do krajiny</h2>
+            <p>Stříbrné vévodství je krajinou mimořádné rozmanitosti, kde se mísí horské masivy, zelené pláně, hluboké lesy i podmáčené bažiny. Tato přírodní různorodost přispívá k silné regionální identitě jednotlivých částí vévodství a formuje nejen způsob života obyvatel, ale i strategické a ekonomické fungování říše.</p>
+            <p>Západní pohoří skrývá stříbrné doly, které daly vévodství jméno i moc. Východní nížiny slouží jako zemědělská pánev a centrum obchodu. Jižní hranice přecházejí do kulturně pestrých oblastí sousedících s Tralornem a Tilionem, zatímco sever čelí proměnlivým vlivům Temnohvozdu.</p>
+        </div>
+
+        <div class="section" id="hory">
+            <h2>Hory Stříbrného okraje</h2>
+            <p>Na severozápadě vévodství se zvedá mohutný horský hřeben známý jako Stříbrný okraj. Tato oblast je bohatá na nerostné suroviny, především stříbro, měď a železo. Hory jsou zároveň domovem hornických měst jako je <strong>Ledeč</strong>, <strong>Vlastec</strong> nebo <strong>Lovčany</strong>, kde se mísí tvrdý život dělníků s magickými rituály, které zajišťují bezpečnost dolování.</p>
+            <p>Horské průsmyky jsou důležité jak pro obchod, tak pro obranu. Jsou zde umístěny strážní pevnosti a výcviková centra horské pěchoty. Zimní podmínky bývají extrémní, ale i přesto si oblast drží stabilní osídlení.</p>
+        </div>
+
+        <div class="section" id="stepi_lesy">
+            <h2>Lesy a stepní pláně vnitrozemí</h2>
+            <p>Střední část vévodství tvoří mozaika úrodných stepí, říčních údolí a hustých listnatých lesů. Právě zde leží srdce země – města jako <strong>Hovorka</strong>, <strong>Radvín</strong> či <strong>Štěpínec</strong>, kde se setkává šlechta, obchodníci i poutníci z celého ostrova.</p>
+            <p>Lesy jsou chráněny kvůli svému duchovnímu významu – mnohé z nich jsou považovány za posvátná území Strážce. Pláně poskytují pastvu i pole a tvoří hlavní hospodářskou zónu vévodství. Řeky jako <strong>Stříbřava</strong> zajišťují zavlažování a spojují venkov s městy.</p>
+        </div>
+
+        <div class="section" id="jih">
+            <h2>Jižní obchodní trasy a pohraničí</h2>
+            <p>Na jihu se nachází města <strong>Podhájí</strong>, <strong>Jovrnice</strong> a <strong>Štíbrov</strong>, která slouží jako styčná místa pro obchod se Zeleným svazem Tralorn a Hvozdnou republikou Tilion. Jižní krajina je mírnější, plná sadů, rybníků a vesnických komunit s bohatou folklórní tradicí.</p>
+            <p>Hranice jsou chráněny pohraničními strážemi, avšak zdejší lidé jsou zvyklí žít v míru a často provozují malý přeshraniční obchod, výměnu surovin i kulturní festivaly. Často se zde také objevuje synkretismus víry v Strážce s uctíváním přírodních duchů.</p>
+        </div>
+
+        <div class="section" id="vychod">
+            <h2>Východní nížiny a pobřeží</h2>
+            <p>Oblast kolem <strong>Dampovic</strong>, <strong>Keřepic</strong> a <strong>Kohovic</strong> je známa jako obilnice vévodství. Nížiny jsou silně osídlené a poskytují potraviny pro většinu království. Pobřežní oblasti, ač ne tak rozvinuté jako ve Tilionu, mají rybářské vesnice a obchodní přístavy.</p>
+            <p>Klima je zde teplé a vlhké, což umožňuje pěstování vinné révy, bylin a dalších plodin. Nacházejí se zde také menší mokřady, které mají ekologický a duchovní význam – slouží jako stanoviště pro vzácné druhy i poutní místa.</p>
+        </div>
+
+        <div class="section" id="klima">
+            <h2>Klimatické podmínky</h2>
+            <p>Stříbrné vévodství má mírně kontinentální klima. Zimy jsou chladné, zejména v horách, zatímco léta bývají teplá a vlhká. Nejvíce srážek spadne na východě a jihovýchodě, zatímco sever a západ bývají sušší.</p>
+            <p>Každý region se musí přizpůsobit specifickému klimatu – v horách dominuje soběstačnost a obrana proti lavinám, zatímco na jihu a východě je běžné zemědělství a rybolov. Klima a geografie zde formují nejen ekonomiku, ale i životní styl a mentalitu obyvatel.</p>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#uvod">Úvod</a>
+        <a href="#hory">Hory Stříbrného okraje</a>
+        <a href="#stepi_lesy">Lesy a pláně vnitrozemí</a>
+        <a href="#jih">Jižní pohraničí</a>
+        <a href="#vychod">Východní nížiny</a>
+        <a href="#klima">Klimatické podmínky</a>
+        <a href="sILVER_main_page.html" class="back-btn">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>
