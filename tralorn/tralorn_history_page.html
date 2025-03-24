@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historie Zeleného svazu Tralorn</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+
+    <div class="container">
+        <h1>Historie Zeleného svazu Tralorn</h1>
+        <p>Zelený svaz Tralorn je unikátní svazem komunit, který vznikl v reakci na zkázu a chaos, nikoliv jako výsledek expanze či dobyvačných ambicí. Jeho historie je příběhem přežití, spolupráce a hledání rovnováhy s přírodou.</p>
+
+        <div class="section" id="pocatky">
+            <h2>Počátky osídlení</h2>
+            <p>Více než sto let před současností byly oblasti dnešního Tralornu neobydlenými hvozdy a bažinami. Během rozsáhlých válek v centrálních částech ostrova přišlo mnoho komunit o své domovy. Uprchlíci se rozptýlili po krajině a někteří našli útočiště v těžko přístupných lesích a mokřadech na jihovýchodě.</p>
+            <p>Tato první generace osadníků žila izolovaně, ale sdílela stejný cíl – přežít a nevytvářet nový řád založený na síle, nýbrž na rovnováze. Byly založeny první osady jako Podhájí, Brďov a Steponice, které postupně navázaly spolupráci.</p>
+			
+			<div class="image">
+               <img src="https://1drv.ms/i/s!AiDJb8eEyOb6irMxU63iIVfXXnJf9Q?embed=1&width=1024" width="1024" height="1024" />
+            </div>
+        </div>
+
+        <div class="section" id="sjednoceni">
+            <h2>Sjednocení a vznik svazu</h2>
+            <p>Po několika desetiletích izolované existence začaly osady čelit novým hrozbám – pytlákům, pašerákům a nájezdníkům hledajícím vzácné byliny a dřevo. Osady si uvědomily, že přežijí jen tehdy, pokud budou jednat společně. Tak vznikla myšlenka Zeleného svazu.</p>
+            <p>V Podhájí byl svolán první lesní kruh – shromáždění zástupců všech komunit. Zde byl vytvořen základní svazový kodex, který stanovil principy samosprávy, sdílení zdrojů a společné obrany. Kodex vycházel z tradic udržitelnosti, vzájemné pomoci a respektu k přírodě.</p>
+			<div class="image">
+               <img src="https://1drv.ms/i/s!AiDJb8eEyOb6irMygyDkimzNLzfvmg?embed=1&width=1024&height=1024" width="1024" height="1024" />
+            </div>
+        </div>
+
+        <div class="section" id="stabilizace">
+            <h2>Stabilizace a budování</h2>
+            <p>Následující desetiletí přinesla pomalý, ale stabilní rozvoj. Komunity začaly koordinovat pěstování, sběr i obranu území. Vybudovaly se jednoduché stezky mezi osadami a v Podhájí vzniklo první Shromáždění svazu s voleným starostou. Byly navázány první obchodní kontakty se Stříbrným vévodstvím a Hvozdnou republikou.</p>
+            <p>V této době vznikly také první neformální svátky jako Den Rovnováhy a Obřad Semene. Svaz se neúčastnil žádných válek, ale poskytoval útočiště těm, kteří hledali klid. Z Tralornu se stal příklad spolužití člověka s divokou krajinou.</p>
+			<div class="image">
+               <img src="https://1drv.ms/i/s!AiDJb8eEyOb6irMzo0NHfGTPLqD-Jg?embed=1&width=1024&height=1024" width="1024" height="1024" />
+            </div>
+        </div>
+
+        <div class="section" id="soucasnost">
+            <h2>Současná éra</h2>
+            <p>Dnes je Tralorn stále malý, ale stabilní. Starosta Leoric a Shromáždění svazu dbají na zachování původních hodnot. Přes rostoucí poptávku po léčivých bylinách si svaz zachovává přísné limity těžby a vývozu. Pytláci a černí obchodníci stále představují hrozbu, ale komunity jsou ostražité a připravené chránit své území.</p>
+            <p>Ve světě říší plných magie, náboženství a intrik působí Tralorn jako tichý hlas rozumu. I když ho jiní vnímají jako nevýznamného hráče, jeho model života je inspirací pro mnohé, kdo hledají nový způsob, jak existovat v harmonii se světem.</p>
+			<div class="image">
+               <img src="https://1drv.ms/i/s!AiDJb8eEyOb6irM0zmwl4gmiDJFwIg?embed=1&width=1024" width="1024" height="1024" />
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#pocatky">Počátky osídlení</a>
+        <a href="#sjednoceni">Sjednocení svazu</a>
+        <a href="#stabilizace">Stabilizace</a>
+        <a href="#soucasnost">Moderní éra</a>
+        <a href="tralorn_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

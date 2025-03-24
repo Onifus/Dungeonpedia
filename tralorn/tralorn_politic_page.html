@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politika Zeleného svazu Tralorn</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+
+    <div class="container">
+        <h1>Politika a správa Zeleného svazu Tralorn</h1>
+        <p>Zelený svaz Tralorn je unikátní svou jednoduchou, ale efektivní správní strukturou, která reflektuje hodnoty udržitelnosti, spolupráce a respektu k přírodě. Politika zde nevychází z ambicí po moci, ale z potřeby přežití v náročném terénu a touhy udržet rovnováhu mezi člověkem a přírodou.</p>
+
+        <div class="section" id="shromazdeni_svazu">
+            <h2>Shromáždění svazu</h2>
+            <p>Nejvyšší politické těleso Zeleného svazu tvoří Shromáždění svazu – rada složená ze zástupců každé osady a města. Tito zástupci nejsou voleni na základě stranické příslušnosti, ale na základě důvěry, kterou získali svou prací pro komunitu.</p>
+            <p>Shromáždění se schází čtyřikrát do roka a vždy ve stínu starého dubu v městě Podhájí, symbolu založení svazu. Zde se diskutují klíčová rozhodnutí, jako je rozdělování zdrojů, obrana proti pytlákům a dohody se spojenci.</p>
+        </div>
+
+        <div class="section" id="vedeni">
+            <h2>Vedení svazu</h2>
+            <p>Tralorn nemá krále ani vévodu. Nejvyšší výkonnou funkcí je <strong>Starosta svazu</strong>, volený na tři roky. Jeho úlohou je moderovat jednání, reprezentovat svaz navenek a dbát na naplňování principů udržitelnosti a rovnováhy. V současnosti tuto pozici zastává Starosta Leoric Zelenýklid.</p>
+            <p>Starostovi asistují tzv. <em>Zelení správci</em> – jednotlivci pověření vedením specifických oblastí jako je zemědělství, obrana, léčitelství či vzdělávání.</p>
+        </div>
+
+        <div class="section" id="rozhodovani">
+            <h2>Proces rozhodování</h2>
+            <p>Rozhodování probíhá na základě konsenzu. V Tralornu je preferováno hledání dohody místo hlasování většiny. Pokud konsenzu není dosaženo, rozhodnutí se odkládá a znovu projednává po poradě s komunitou.</p>
+            <p>Tento přístup odráží hlubokou víru v to, že každý hlas má cenu a že nátlak není cestou k trvalému řešení. V krajních případech může Starosta rozhodnout sám, ale jen dočasně – rozhodnutí musí být následně ratifikováno shromážděním.</p>
+        </div>
+
+        <div class="section" id="spoluprace">
+            <h2>Diplomacie a vnější vztahy</h2>
+            <p>Zelený svaz si zakládá na mírové diplomacii. Udržuje těsné vztahy především se Stříbrným vévodstvím, které je jeho hlavním obchodním partnerem a vojenským garantem v případě ohrožení.</p>
+            <p>Tralorn se účastní i tzv. <em>Lesních summitů</em>, kde se setkávají zástupci Hvozdné republiky, Sylvadoru a dalších přírodně orientovaných říší, aby sdíleli znalosti a stanovili společné ekologické cíle.</p>
+        </div>
+
+        <div class="section" id="pravo">
+            <h2>Právo a spravedlnost</h2>
+            <p>Právní systém Tralornu je jednoduchý a založený na komunitní odpovědnosti. Neexistují zde klasické soudy – spory jsou řešeny radou starších a za přítomnosti obou stran i svědků.</p>
+            <p>Důraz je kladen na nápravu a obnovu vztahů, nikoliv na trest. Například škoda na majetku se často řeší prací pro postiženého nebo veřejně prospěšnými úkoly. Opakované přečiny však mohou vést k vyhoštění z komunity.</p>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#shromazdeni_svazu">Shromáždění svazu</a>
+        <a href="#vedeni">Vedení svazu</a>
+        <a href="#rozhodovani">Proces rozhodování</a>
+        <a href="#spoluprace">Diplomacie</a>
+        <a href="#pravo">Právo a spravedlnost</a>
+        <a href="tralorn_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

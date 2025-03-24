@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Významné osobnosti Tralornu</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+
+    <div class="container">
+        <h1>Významné osobnosti Zeleného svazu Tralorn</h1>
+        <p>Zelený svaz Tralorn, ačkoliv malý rozlohou, dal vzniknout několika výjimečným osobnostem, jejichž vliv sahá daleko za hranice hlubokých lesů a bažin. Tito muži a ženy se stali symbolem udržitelnosti, moudrosti a odvahy čelit výzvám, které přináší život v srdci přírody.</p>
+
+        <div class="section" id="leoric">
+            <h2>Starosta Leoric Zelenýklid</h2>
+            <p><strong>Postavení:</strong> Nejvyšší představitel města Podhájí, předsedající Shromáždění svazu.</p>
+            <p><strong>Charakter:</strong> Klidný, rozvážný a nesmírně oddaný svému lidu. Je považován za ztělesnění tralornské filozofie.</p>
+            <p><strong>Význam:</strong> Leoric se zasloužil o posílení soběstačnosti Tralornu a zavedl systém ekologického plánování, který respektuje jak potřeby lidí, tak přírody. Jeho rozhodnutí mají vždy dlouhodobý horizont a jsou prodchnuta hlubokou úctou k místní krajině.</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irM41b9KxZ53ggb_XQ?embed=1&width=1024&height=1024" width="95%">
+        </div>
+
+        <div class="section" id="serila">
+            <h2>Serila z Mlžných luk</h2>
+            <p><strong>Postavení:</strong> Hlavní bylinkářka svazu a duchovní ochránkyně Bažinných pramenů.</p>
+            <p><strong>Charakter:</strong> Tichá a záhadná postava, jejíž slova váží mnoho. Mnozí ji považují za mluvčí přírody samotné.</p>
+            <p><strong>Význam:</strong> Serila uchovává znalosti o stovkách léčivých rostlin a starých rituálech. Její rady mají často větší váhu než hlas některých radních. Pomohla zachránit svaz během morové krize díky svému lektvaru z kořene stínolistu.</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irM1KPyv-xO2sTpYAw?embed=1&width=1024&height=1024" width="95%">
+        </div>
+
+        <div class="section" id="branek">
+            <h2>Branek Lesoochránce</h2>
+            <p><strong>Postavení:</strong> Velitel lesní stráže a zakladatel systému lesních hlídek.</p>
+            <p><strong>Charakter:</strong> Oheň v srdci a houževnatost v činech. Branek je neústupný, když jde o obranu Tralornu.</p>
+            <p><strong>Význam:</strong> Jeho práce v ochraně přírody a boji proti pytlákům z Tralornu udělala bezpečnější místo. Branek zavedl systém tajných stezek a výstražných signálů, který dnes používají všichni hlídači hranic.</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irM2-9x-S_fteQLW-w?embed=1&width=1024&height=1024" width="95%">
+        </div>
+
+        <div class="section" id="lyenna">
+            <h2>Lyenna Ticholistá</h2>
+            <p><strong>Postavení:</strong> Diplomatka a vyjednavačka Tralornu, spojenkyně Stříbrného vévodství.</p>
+            <p><strong>Charakter:</strong> Rafinovaná, empatická a mistrovsky ovládající jazyk symbolů i ticha.</p>
+            <p><strong>Význam:</strong> Zasloužila se o zachování neutrality Tralornu během napětí mezi Morholdem a Safírovou konfederací. Věří v sílu tichého porozumění a často říká, že „některé sliby je lepší šeptat stromům než křičet do radních síní.“</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irM3zoHu4GQRBMP5xg?embed=1&width=1024&height=1024" width="95%">
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#leoric">Starosta Leoric</a>
+        <a href="#serila">Serila z Mlžných luk</a>
+        <a href="#branek">Branek Lesoochránce</a>
+        <a href="#lyenna">Lyenna Ticholistá</a>
+        <a href="tralorn_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

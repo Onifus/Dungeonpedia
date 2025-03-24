@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geografie Zeleného svazu Tralorn</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+
+    <div class="container">
+        <h1>Geografie Zeleného svazu Tralorn</h1>
+        <p>Zelený svaz Tralorn je jedním z nejmenších, ale nejrozmanitějších územních celků na ostrově. Jeho území se vyznačuje především divokou přírodou, hustými lesy, rozsáhlými bažinami a neprostupnými údolími. Díky této geografii se Tralornu dlouhodobě daří udržovat nezávislost i bez výrazné vojenské síly.</p>
+
+        <div class="section" id="lesy">
+            <h2>Lesy Tralornu</h2>
+            <p>Největší část území Tralornu pokrývají smíšené lesy – zejména duby, buky a břízy. Lesy jsou hluboké a mnohdy neprobádané. Slouží nejen jako útočiště pro divokou zvěř, ale i jako hlavní zdroj dřeva, bylin a hub. Lesní cesty bývají úzké a klikaté, což znesnadňuje pohyb větším jednotkám – ale místní obyvatelé je znají dokonale.</p>
+            <p>V některých oblastech se vyskytují i tzv. Mlžné lesy – místa, kde se kvůli vysoké vlhkosti drží mlha téměř celý den. Tato tajemná zákoutí jsou opředena legendami a často považována za posvátná.</p>
+        </div>
+
+        <div class="section" id="baziny">
+            <h2>Bažiny a mokřady</h2>
+            <p>Bažiny Tralornu jsou legendární. Jsou plné života – od obojživelníků přes léčivé rostliny až po vzácné magické byliny, které se vyskytují pouze v tomto prostředí. Zároveň jsou však zrádné – plné hlubokého bahna, prudkých výparů a podivných tvorů.</p>
+            <p>Nejznámější oblastí je Bažina šeptajících stínů – prastarý mokřad, kde se podle tradic rodí nejmocnější léčivé esence i duchové bažin. Jen ti nejzkušenější se sem vydávají za sběrem nebo meditací.</p>
+        </div>
+
+        <div class="section" id="pobrezi">
+            <h2>Pobřeží a mořské útesy</h2>
+            <p>Tralorn má jen malý kousek přístupu k moři, ale i ten hraje důležitou roli. Pobřeží je skalnaté, s množstvím útesů, do kterých narážejí vlny. Neexistuje zde klasický přístav, jen malé rybářské kotviště chráněné přírodní zátokou.</p>
+            <p>Tato oblast slouží jako spojení se světem, i když jen zřídka – Tralorňané nejsou námořníci, ale občas vyměňují zboží s Hvozdnou republikou nebo Stříbrným vévodstvím přes moře.</p>
+        </div>
+
+        <div class="section" id="mestaaosady">
+            <h2>Města a osady</h2>
+            <p>Tralorn tvoří tři hlavní sídla:</p>
+            <ul>
+                <li><strong>Podhájí</strong> – hlavní město a centrum správy svazu. Leží na okraji lesa, na rozhraní bažin a pevniny. V Podhájí sídlí starosta Leoric i Shromáždění svazu.</li>
+                <li><strong>Brďov</strong> – menší osada známá svými léčitelkami a sběrači vzácných bylin. Nachází se v lesnatém údolí u pramene čisté vody.</li>
+                <li><strong>Steponice</strong> – vesnice v jižní části svazu, specializující se na dřevovýrobu a výrobu nástrojů z přírodních materiálů.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="klima">
+            <h2>Klima a přírodní podmínky</h2>
+            <p>Klima v Tralornu je vlhké a mírné. Jaro a podzim jsou dlouhé, s častými dešti, zatímco léto bývá teplé, ale ne extrémně horké. Zimy jsou spíše deštivé než mrazivé, s hustými mlhami a pomalým ústupem vegetace do klidového režimu.</p>
+            <p>Vysoká vlhkost podporuje bujný růst rostlin a přítomnost různorodé fauny, ale zároveň vytváří ideální podmínky pro šíření nemocí, proti nimž si místní obyvatelé vyvinuli silnou imunitu.</p>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#lesy">Lesy</a>
+        <a href="#baziny">Bažiny</a>
+        <a href="#pobrezi">Pobřeží</a>
+        <a href="#mestaaosady">Města a osady</a>
+        <a href="#klima">Klima</a>
+        <a href="tralorn_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

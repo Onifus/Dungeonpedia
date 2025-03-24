@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kultura Zeleného svazu Tralorn</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+
+    <div class="container">
+        <h1>Kultura Zeleného svazu Tralorn</h1>
+        <p>Kultura Tralornu je hluboce zakořeněna v přírodě a každodenním životě obyvatel. Nejde o velkolepé umění či formální ceremonie, ale o jednoduchost, funkčnost a propojení s krajinou. Obyvatelé žijí v souladu s okolním prostředím a kultura odráží skromnost, praktičnost a respekt ke každé živé bytosti.</p>
+
+        <div class="section" id="zivotni_styl">
+            <h2>Životní styl a hodnoty</h2>
+            <p>Tralorňané vedou prostý, ale účelný život. Věří, že nadbytek vede k narušení rovnováhy, a proto se vyhýbají hromadění majetku. Jejich domovy jsou skromné, stavěné z místních materiálů, s důrazem na trvanlivost a soulad s krajinou.</p>
+            <p>Společným jmenovatelem života v Tralornu je soběstačnost a pomoc sousedům. Každý je součástí komunity a má svou roli – ať už jako sběrač bylin, léčitel, řemeslník nebo ochránce hranic.</p>
+        </div>
+
+        <div class="section" id="umeniaremesla">
+            <h2>Umění a řemesla</h2>
+            <p>V Tralornu se umění nesoustředí na okázalost, ale na spojení krásy s účelností. Obyvatelé vyrábějí nástroje, nádoby, látky i stavby s důrazem na detail, tradici a funkčnost. Používají přírodní materiály jako dřevo, kůži, mech a hlínu.</p>
+            <p>Nejčastějšími formami uměleckého projevu jsou rytiny do kůry stromů, tkané symboly na oděvech a vyřezávané předměty s motivy přírody – listy, zvířata nebo cyklické vzory znázorňující proměny ročních dob.</p>
+        </div>
+
+        <div class="section" id="hudba">
+            <h2>Hudba, tanec a vyprávění</h2>
+            <p>Hudba Tralornu je tichá a meditativní, často založená na přírodních zvucích – šumění listí, zurčení vody, zpěvu ptáků. Používají se jednoduché nástroje jako flétny z dutého dřeva, bubínky z kůže nebo kamenné chřestidla.</p>
+            <p>Tanec je spíše pohybovým rituálem než zábavou – během slavností se tančí v kruhu, často bez hudby, pouze s dechem a šepotem. Ústní tradice hraje zásadní roli – příběhy předků, přírodních duchů nebo vzniku svazu se předávají z generace na generaci.</p>
+        </div>
+
+        <div class="section" id="vzdelani">
+            <h2>Vzdělání a přenos znalostí</h2>
+            <p>Formální školy v Tralornu neexistují. Děti se učí od dospělých skrze praktickou zkušenost – při práci na poli, sběru bylin nebo stavbě přístřeší. Každý člen komunity má povinnost předávat své dovednosti dál.</p>
+            <p>Existují také tzv. <em>kruhy moudrosti</em>, kde se starší scházejí s mladými a sdílejí příběhy, rady a filozofii svazu. Největší důraz je kladen na ekologickou rovnováhu, léčitelství a přežití v přírodě.</p>
+        </div>
+
+        <div class="section" id="spolecenske_hodnoty">
+            <h2>Společenské hodnoty a soužití</h2>
+            <p>Každý obyvatel je vnímán jako rovný. Rozhodování probíhá skrze dialog, diskuze a komunitní shromáždění. Spory se řeší smírem a hledáním rovnováhy. Vysokou úctu mají stařešinové, kteří slouží jako rádci, ale nikoliv jako vládci.</p>
+            <p>Hosté jsou vítáni a uctěni skromným pohoštěním. Zároveň se očekává, že každý respektuje pravidla svazu – nevytváří zbytečný odpad, neplýtvá vodou a neničí přírodní zdroje. Uctivost k životnímu prostředí je základní společenskou normou.</p>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#zivotni_styl">Životní styl</a>
+        <a href="#umeniaremesla">Umění a řemesla</a>
+        <a href="#hudba">Hudba a tanec</a>
+        <a href="#vzdelani">Vzdělání</a>
+        <a href="#spolecenske_hodnoty">Společenské hodnoty</a>
+        <a href="tralorn_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>
