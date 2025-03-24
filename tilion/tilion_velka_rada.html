@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rada Tilionu</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    
+    <div class="container">
+        <h1>Rada Tilionu</h1>
+        <p>Rada Tilionu je hlavním zákonodárným a výkonným orgánem Hvozdné republiky. Na rozdíl od monarchií a centralizovaných vlád ostatních říší se v Tilionu rozhoduje kolektivně – moc je sdílená mezi volené zástupce z jednotlivých vesnic a přístavního města Jouvrnice.</p>
+
+        <div class="section" id="vznik">
+            <h2>Vznik a smysl Rady</h2>
+            <p>Rada vznikla po sjednocení tří vesnic a města Jouvrnice v reakci na hrozbu černých obchodníků a rozvrácení regionu. První zasedání se konalo v Prastarém Hvozdu, pod dohledem duchovních a stařešin, a dalo základ nové formě vlády: sdílenému vedení bez jediné dominantní osoby.</p>
+            <p>Cílem bylo vytvořit správu, která reflektuje potřeby různých komunit a zároveň chrání zájmy celé republiky. Tato rovnostářská struktura je dodnes považována za jeden z pilířů tilionské identity.</p>
+        </div>
+
+        <div class="section" id="struktura">
+            <h2>Struktura Rady</h2>
+            <p>Rada je tvořena čtyřmi stálými členy, z nichž každý zastupuje jednu komunitu: Jouvrnici, Štříbek, Hartkovice a Arděnov. Každá komunita volí svého zástupce na tříleté funkční období.</p>
+            <p>Každý člen Rady má rovné hlasovací právo. Předsednictví je rotováno každé čtvrtletí, čímž se zajišťuje rovnováha moci a zabránění dominance jediné oblasti.</p>
+            <ul>
+                <li><strong>Zástupce Jouvrnice:</strong> Odpovědný za otázky obchodu a obrany přístavu.</li>
+                <li><strong>Zástupce Štříbku:</strong> Specialista na duchovní záležitosti a správu lesních oblastí.</li>
+                <li><strong>Zástupce Hartkovic:</strong> Zodpovídá za zemědělství a zásobování.</li>
+                <li><strong>Zástupce Arděnova:</strong> Dozor nad infrastrukturou a vnitřní bezpečností.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="funkce">
+            <h2>Funkce Rady Tilionu</h2>
+            <p>Rada Tilionu vykonává všechny zásadní správní i výkonné funkce republiky. Schvaluje zákony, dohlíží na dodržování tradic a zajišťuje spolupráci mezi jednotlivými komunitami.</p>
+            <p>Mezi hlavní kompetence Rady patří:</p>
+            <ul>
+                <li>Správa daní a rozpočtu</li>
+                <li>Vyjednávání s jinými říšemi</li>
+                <li>Organizace obrany a domobrany</li>
+                <li>Jmenování soudců a vedoucích radnic</li>
+                <li>Koordinace rituálů a státních svátků</li>
+            </ul>
+        </div>
+
+        <div class="section" id="rozhodovani">
+            <h2>Rozhodovací proces</h2>
+            <p>Rozhodnutí jsou přijímána prostou většinou hlasů. V případě rovnosti hlasů má předsedající zástupce možnost využít rozhodující hlas – což se však v praxi děje jen zřídka. Většina otázek je řešena konsenzem, pod vlivem duchovních doporučení nebo veřejné diskuze v komunitách.</p>
+            <p>Ve výjimečných případech – jako je přijetí nového člena do republiky nebo vyhlášení stavu nouze – je nutný souhlas všech čtyř zástupců.</p>
+        </div>
+
+        <div class="section" id="symbolika">
+            <h2>Symbolika a hodnoty Rady</h2>
+            <p>Rada Tilionu je často označována jako „Kruh Rovných“, a její symbol – čtyřcípá hvězda – reprezentuje čtyři základní pilíře republiky: spolupráci, rovnost, duchovní rovnováhu a přizpůsobivost.</p>
+            <p>Zasedací síň v Jouvrnici je vystavěna v kruhové architektuře z lesního dřeva a místního kamene, aby odrážela jednoduchost, přirozenost a propojenost s krajinou, kterou Tilion uctívá.</p>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#vznik">Vznik Rady</a>
+        <a href="#struktura">Struktura</a>
+        <a href="#funkce">Funkce Rady</a>
+        <a href="#rozhodovani">Rozhodovací proces</a>
+        <a href="#symbolika">Symbolika a hodnoty</a>
+        <a href="tilion_politic_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

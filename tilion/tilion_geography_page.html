@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geografie Hvozdné republiky Tilion</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Geografie Hvozdné republiky Tilion</h1>
+        <p>Hvozdná republika Tilion se nachází na jihovýchodním cípu ostrova a patří mezi nejmenší, ale nejrozmanitější územní celky. Její poloha mezi mořem a vnitrozemskými savanami poskytuje jak přístup k obchodu, tak i bohaté přírodní zdroje. Tilion tvoří čtyři hlavní sídla: Jouvrnice, Švestkovice, Arděnov a Stříbník – z nichž Jouvrnice je hlavním přístavním městem.</p>
+
+        <div class="section" id="savanove_udoli">
+            <h2>Savanové údolí</h2>
+            <p>Většinu vnitrozemského území Tilionu pokrývá rozlehlé savanové údolí. Tento otevřený prostor je charakteristický vysokými travinami, nízkými keři a řídkým rozptylem stromů. Savanové oblasti jsou využívány především pro chov dobytka, pastvu a sběr bylin.</p>
+            <p>Údolí je bohaté na divokou zvěř a zvířata, která mají duchovní význam. Často zde probíhají rituály spojené s duchy Savan. Místní obyvatelé jsou mistry v orientaci v tomto terénu a znají skryté cesty vedoucí mezi jednotlivými vesnicemi.</p>
+        </div>
+
+        <div class="section" id="baziny">
+            <h2>Jihovýchodní bažiny</h2>
+            <p>Na východním a jihovýchodním okraji republiky se rozprostírají bažinaté oblasti plné vodních rostlin, tůní a močálů. Jsou to jak útočiště mnoha vzácných druhů, tak i nebezpečné zóny, kde se vyskytují jedovaté houby, hmyz a šelmy.</p>
+            <p>Bažiny mají v místní kultuře výjimečné postavení – duchové bažin jsou považováni za strážce hranic a ochránce před vetřelci. Obyvatelé často budují chodníky z klád a dřevěné mosty mezi bezpečnými místy. Pramen Světlosti se nachází právě v jedné z těchto bažin.</p>
+        </div>
+
+        <div class="section" id="lesy">
+            <h2>Lesní ostrůvky</h2>
+            <p>Rozptýlené listnaté háje se nacházejí zejména kolem Stříbníku a mezi Arděnovem a Švestkovicemi. Jsou menší než běžné lesy, ale poskytují důležité dřevo, byliny a chráněné úkryty. V některých z těchto hájů se nachází duchovní svatyně, kde se konají rituály v klidu a stínu stromů.</p>
+            <p>Tyto ostrůvky tvoří přirozené hranice mezi jednotlivými oblastmi a často bývají místem setkávání mezi komunitami, které zde pořádají slavnosti a trhy.</p>
+        </div>
+
+        <div class="section" id="pristavni_pobrezni_zona">
+            <h2>Pobřežní oblast a přístav Jouvrnice</h2>
+            <p>Jihovýchodní pobřeží Tilionu je lemováno písčitými plážemi a přírodními zátokami. Právě zde se nachází Jouvrnice – hlavní přístav a srdce obchodního ruchu republiky. Přístav je chráněn přírodními útesy, což z něj činí bezpečné místo i v bouřlivém počasí.</p>
+            <p>V okolí se nachází rybářské vesnice, solné pánve a přístavní skladiště, které slouží pro skladování bylin, dřeva a zboží připraveného k výměně s jinými říšemi. V Jouvrnici se nachází i námořní akademie, kde se školí obchodníci a navigátoři.</p>
+        </div>
+
+        <div class="section" id="klima">
+            <h2>Klima a roční cykly</h2>
+            <p>Klima Tilionu je převážně tropické se střídáním období sucha a období dešťů. Suché měsíce trvají zhruba od Slunovratu jara do Pozdního léta, poté nastává dešťová sezóna, která zásobuje bažiny a naplňuje říční toky. Déšť je zde vnímán jako požehnání duchů, a jeho příchod se oslavuje Oslavou Dešťového Ducha.</p>
+            <p>Obyvatelé Tilionu jsou přizpůsobení těmto cyklům – jejich obydlí jsou stavěna na vyvýšených místech, aby byla chráněna před záplavami, a většina polních prací se řídí podle fází měsíce a dešťových předpovědí.</p>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#savanove_udoli">Savanové údolí</a>
+        <a href="#baziny">Jihovýchodní bažiny</a>
+        <a href="#lesy">Lesní ostrůvky</a>
+        <a href="#pristavni_pobrezni_zona">Pobřežní oblast a přístav</a>
+        <a href="#klima">Klima a roční cykly</a>
+        <a href="tilion_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

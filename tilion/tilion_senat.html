@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Městský senát Jouvrnice</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+
+    <div class="container">
+        <h1>Městský senát Jouvrnice</h1>
+        <p>Jouvrnice, hlavní přístav a centrum Hvozdné republiky Tilion, je řízena Městským senátem – samosprávným orgánem, který zajišťuje chod města a zároveň slouží jako hlas města v Radě Tilionu. Tento senát je unikátním spojením starých tradic a pragmatického městského řízení, kde se střetává duchovní odkaz se světem obchodu a námořní diplomacie.</p>
+
+        <div class="section" id="slozeni">
+            <h2>Složení senátu</h2>
+            <p>Městský senát je tvořen dvanácti volenými členy, známými jako <strong>Zástupci kruhu</strong>. Tito senátoři pocházejí z různých vrstev městské společnosti – od obchodníků, přes řemeslníky, až po zástupce duchovních a učenců. Volby probíhají každé dva roky, přičemž každý občan Jouvrnice má jeden hlas.</p>
+            <p>Předsedou senátu je <strong>Mluvčí přístavu</strong>, který je volen z řad senátorů a zodpovídá za reprezentaci města na veřejnosti i v Radě Tilionu.</p>
+        </div>
+
+        <div class="section" id="pravomoci">
+            <h2>Pravomoci a odpovědnosti</h2>
+            <p>Senát dohlíží na každodenní správu města, organizuje obchodní politiku přístavu a udržuje bezpečnost na moři i v ulicích. Mezi jeho hlavní pravomoci patří:</p>
+            <ul>
+                <li>Schvalování městského rozpočtu</li>
+                <li>Vedení obchodních jednání a dohled nad trhy</li>
+                <li>Správa přístavních poplatků a regulace lodní dopravy</li>
+                <li>Udržování městských služeb – vodovodů, hlídek, zdravotnictví</li>
+                <li>Spolupráce s duchovními v oblasti rituálů a městských svátků</li>
+            </ul>
+        </div>
+
+        <div class="section" id="duchovni_vliv">
+            <h2>Duchovní vliv</h2>
+            <p>Přestože senát je sekulární institucí, jeho zasedání jsou často zahajována symbolickými modlitbami k Duchům Savan. Město má svého <strong>Poradce větru</strong>, duchovního zástupce, který dohlíží na to, aby rozhodnutí senátu neodporovala duchovní rovnováze republiky.</p>
+            <p>Tento poradce nemá hlasovací právo, ale jeho doporučení jsou tradičně brána velmi vážně, zvláště při plánování nových staveb, zásazích do přírody nebo při řešení krizí.</p>
+        </div>
+
+        <div class="section" id="konflikty">
+            <h2>Konflikty a výzvy</h2>
+            <p>Senát často čelí náročným rozhodnutím – od rozdělování příjmů z přístavu mezi čtvrti, přes řešení námořního pirátství, až po jednání se zástupci Rad Tilionu ohledně podílů na celorepublikovém rozpočtu. V posledních letech se objevily rozpory mezi obchodními cechy a duchovními skupinami ohledně rozsahu urbanizace města.</p>
+            <p>Přesto si Městský senát zachovává silnou pozici díky své diplomatické obratnosti a schopnosti reflektovat různorodé potřeby městské populace.</p>
+        </div>
+
+        <div class="section" id="symbolika">
+            <h2>Symbolika a tradice</h2>
+            <p>Znakem senátu je **stříbrná kotva obklopená věncem z trávy a mořských korálů** – symbol propojení země a moře, svobody a odpovědnosti. Zasedání senátu se konají v kruhové hale z kamene a tmavého dřeva, známé jako **Dům hlasů**.</p>
+            <p>Každý senátor přísahá při nástupu do úřadu na "Kámen pravdy", který je podle tradice dar Duchů Savan a má symbolizovat zodpovědnost vůči lidem i duchům krajiny.</p>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#slozeni">Složení senátu</a>
+        <a href="#pravomoci">Pravomoci</a>
+        <a href="#duchovni_vliv">Duchovní vliv</a>
+        <a href="#konflikty">Konflikty a výzvy</a>
+        <a href="#symbolika">Symbolika a tradice</a>
+        <a href="tilion_politic_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kultura Hvozdné republiky Tilion</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Kultura a obyvatelé Hvozdné republiky Tilion</h1>
+        <p>Kultura Tilionu je úzce spjata s krajinou, komunitní spoluprací a uctíváním přírodních sil. Navzdory své malé velikosti je Tilion bohatý na duchovní tradice, lidové zvyky a praktická umění přežití v savanách a bažinách.</p>
+
+        <div class="section" id="obyvatelstvo">
+            <h2>Obyvatelstvo a společenské zvyky</h2>
+            <p>Tilionští obyvatelé žijí v pevných komunitách, kde se klade důraz na sdílení, rovnost a spolupráci. Hierarchie je plochá – starší a zkušení mají vážené postavení, ale hlas každého člena má váhu při rozhodování.</p>
+            <p>Rodinné vazby jsou silné, ale komunita je vždy širší než rodina – sousedé se považují za druhou rodinu a vzájemně se podporují při sklizni, ochraně a obřadech.</p>
+        </div>
+
+        <div class="section" id="filozofie_a_vira">
+            <h2>Víra v Duchy Savan</h2>
+            <p>Duchové Savan jsou ústředním prvkem tilionské spirituality. Každý prvek krajiny má svého ducha – déšť, tráva, zvíře i slunce – a lidé se snaží žít v souladu s jejich vůlí. Víra není organizovaná náboženskou institucí, ale spíše komunitní praxí předávanou z generace na generaci.</p>
+            <p>Duchovní vůdcové, tzv. Šeptající, nejsou kněžími v tradičním smyslu – spíše jsou to průvodci rituály, léčitelé a vykladači znamení. Úctu si získávají zkušenostmi a moudrostí, ne formální autoritou.</p>
+        </div>
+
+        <div class="section" id="umeni_a_remesla">
+            <h2>Umění a řemesla</h2>
+            <p>Tilion je známý pro svou utilitární, ale krásnou kulturu umění. Umělecké formy jsou často propojeny s každodenním životem – praktické předměty jako nádoby, šperky nebo nástroje jsou zdobeny symboly duchů a motivy přírody.</p>
+            <p>Hudba je rytmická a perkusivní, často doprovázená zpěvem v kruhu. Tanec je nedílnou součástí rituálů i svátků – zejména Oslavy Dešťového Ducha. Barviva používaná k malbě a tetování pochází z rostlin a minerálů nalezených v bažinách a savanách.</p>
+        </div>
+
+        <div class="section" id="vzdelani_a_tradice">
+            <h2>Vzdělání a ústní tradice</h2>
+            <p>Formální školy nejsou běžné – učení probíhá skrze zkušenosti, vyprávění a praktické vedení. Starší vyprávějí mýty o původu světa, duchů a hrdinů, kteří pomohli založit republiku. Tyto příběhy se předávají ve formě písní, poezie i dramatických představení.</p>
+            <p>Důraz se klade na znalost přírody, léčivých bylin, navigace podle slunce a hvězd, a rozpoznávání znamení duchů. Děti jsou od mala zapojovány do činností komunity a učení je považováno za součást každodenního života.</p>
+        </div>
+
+        <div class="section" id="spolecenske_hodnoty">
+            <h2>Společenské hodnoty</h2>
+            <p>Tilionská společnost si zakládá na třech základních hodnotách: rovnováze, vzájemnosti a respektu. Každý čin je hodnocen z hlediska dopadu na komunitu a přírodu. Pravidla nejsou zapisována do zákoníků, ale dodržována skrze důvěru a kolektivní odpovědnost.</p>
+            <p>Sociální tresty – jako vyloučení z obřadů nebo práce – jsou považovány za nejzávažnější formu trestu. Obyvatelé věří, že odpojení od komunity znamená i odpojení od ochrany duchů.</p>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#obyvatelstvo">Obyvatelstvo</a>
+        <a href="#filozofie_a_vira">Víra a filozofie</a>
+        <a href="#umeni_a_remesla">Umění a řemesla</a>
+        <a href="#vzdelani_a_tradice">Vzdělání a tradice</a>
+        <a href="#spolecenske_hodnoty">Společenské hodnoty</a>
+        <a href="tilion_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

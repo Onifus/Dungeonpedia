@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politika Hvozdné republiky Tilion</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Politika a vláda Hvozdné republiky Tilion</h1>
+        <p>Tilion je jedním z mála skutečně republikánských států na ostrově. Místo vlády monarchů zde rozhoduje zvolená rada složená ze zástupců všech obyvatel – jak z vesnic, tak z přístavního města Jouvrnice. Tento systém zajišťuje rovnováhu mezi venkovským životem a nároky přístavní politiky a obchodu.</p>
+
+		<a href="tilion_velka_rada.html">
+			<div class="section" id="rada_tilionu">
+				<h2>Rada Tilionu</h2>
+				<p>Rada Tilionu je hlavním zákonodárným a výkonným orgánem republiky. Skládá se ze čtyř hlavních delegátů – po jednom z každé osady: Jouvrnice, Švestkovic, Arděnova a Stříbníku.</p>
+				<p>Každý zástupce je volen svými obyvateli jednou za pět let. Funkce předsedy Rady rotuje mezi členy každé dva roky, čímž se zabrání přílišné koncentraci moci v rukou jednoho regionu.</p>
+				<a class="next-arrow">➜</a>
+			</div>
+		</a>
+		
+		<a href="tilion_senat.html">
+			<div class="section" id="mestsky_senat">
+				<h2>Přístavní senát Jouvrnice</h2>
+				<p>Jouvrnice jako hlavní město a obchodní uzel má vlastní senát, který spravuje lokální záležitosti a dohlíží na přístav, daně a mezinárodní obchod. Senát se skládá z cechmistrů, obchodních delegátů a akademiků.</p>
+				<p>Senát nemá právo veta vůči rozhodnutí Rady Tilionu, ale jeho hlas má velkou váhu díky ekonomickému významu města.</p>
+				<a class="next-arrow">➜</a>
+			</div>
+		</a>
+
+        <div class="section" id="obrana_bezpecnost">
+            <h2>Obrana a bezpečnost</h2>
+            <p>Tilion nemá stálou armádu, ale spoléhá na milice – dobrovolné obranné sbory, které jsou aktivní v každé vesnici. V případě nebezpečí jsou tyto skupiny rychle svolány Radou Tilionu a koordinovány skrze starší obranný pakt s Tralornem.</p>
+            <p>Každá vesnice má vlastní Strážce duchů – speciální jednotku, která spojuje vojenský výcvik s duchovními rituály a slouží nejen k obraně, ale i k ochraně posvátných míst.</p>
+        </div>
+
+        <div class="section" id="sprava">
+            <h2>Místní správa a autonomie</h2>
+            <p>Tilion funguje na principu rovnováhy mezi společným rozhodováním a lokální autonomií. Každá vesnice má svého starostu nebo správce, který zajišťuje chod obce a je odpovědný svým lidem.</p>
+            <p>Správci se pravidelně setkávají s členy Rady a projednávají praktické potřeby regionu – od vodních zdrojů po rekonstrukce cest. Díky tomuto systému jsou lidé více zapojeni do správy a mají větší důvěru ve své představitele.</p>
+        </div>
+
+        <div class="section" id="duchovni_vliv">
+            <h2>Vztah k duchovní autoritě</h2>
+            <p>V Tilionu hraje duchovní život důležitou, ale nikoliv nadřazenou roli. Rada Tilionu často konzultuje klíčová rozhodnutí s Duchovními staršími, kteří představují hlas přírody a tradice.</p>
+            <p>Přestože se nejedná o teokracii, žádný důležitý zákon či změna není provedena bez souhlasu těchto duchovních poradců. Tak je zajištěno, že rozhodnutí nejsou pouze praktická, ale i v souladu s vírou a respektem k duchům Savan.</p>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#rada_tilionu">Rada Tilionu</a>
+        <a href="#mestsky_senat">Přístavní senát</a>
+        <a href="#obrana_bezpecnost">Obrana a bezpečnost</a>
+        <a href="#sprava">Místní správa</a>
+        <a href="#duchovni_vliv">Duchovní vliv</a>
+        <a href="tilion_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

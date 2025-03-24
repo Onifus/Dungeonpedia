@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Významné osobnosti Hvozdné republiky Tilion</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Významné osobnosti Hvozdné republiky Tilion</h1>
+        <p>Tilion je malý stát, ale vychoval hrdé a inspirativní postavy, které formovaly jeho vývoj, hájily jeho zájmy a uchovávaly jeho kulturní dědictví. Od diplomatů přes duchovní vůdce až po lidové hrdiny, každý z nich se zapsal do historie republiky.</p>
+
+        <div class="section" id="mirian_jozefar">
+            <h2>Mirian Jozefar – První mluvčí republiky</h2>
+            <p><strong>Postavení:</strong> Zakladatel republiky a hlavní autor Smlouvy tří ohnišť.</p>
+            <p><strong>Charakter:</strong> Vytrvalý, přesvědčivý, hluboce oddaný ideji rovnosti a sdílení moci.</p>
+            <p>Mirian Jozefar sehrál klíčovou roli při sjednocení komunit Tilionu. Byl hlasem, který dokázal přesvědčit znesvářené vesnice, aby spojily síly proti vnějším hrozbám. Jeho schopnost hledat kompromisy a vést dlouhá jednání bez nátlaku z něj učinila přirozeného vůdce první generace republikánů.</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irMiYL_EYtFHeTFxfA?embed=1&width=1024&height=1024" width="95%">
+        </div>
+
+        <div class="section" id="selma_belvanir">
+            <h2>Selma Belvanir – Strážkyně Duchů</h2>
+            <p><strong>Postavení:</strong> Duchovní vůdkyně a léčitelka bažinné oblasti u vesnice Štříbek.</p>
+            <p><strong>Charakter:</strong> Moudrá, tajemná, občas až zastrašující svým klidem a znalostmi přírody.</p>
+            <p>Selma je považována za jednoho z největších žijících zprostředkovatelů mezi lidmi a Duchy Savan. Přes její zdrženlivost a úctu k duchovnímu světu je respektována i mezi skeptiky. Je známá schopností rozeznat náznaky nerovnováhy v přírodě a zasáhnout ještě dříve, než propukne krize.</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irMjUSF7acEzzBcjqw?embed=1&width=1024&height=1024" width="95%">
+        </div>
+
+        <div class="section" id="laen_tarvos">
+            <h2>Laen Tarvos – Kapitán Přístavní ostrahy</h2>
+            <p><strong>Postavení:</strong> Vůdce obrany přístavu v Jouvrnici.</p>
+            <p><strong>Charakter:</strong> Odvážný, praktický, čestný a loajální k republice.</p>
+            <p>Laen Tarvos je symbolem obranné síly Tilionu. Vedl odpor proti nájezdníkům během tzv. Noční invaze a zachránil město Jouvrnici před okupací. Přestože není politicky aktivní, jeho slovo má váhu u námořníků i členů senátu. Jeho oddanost republice a lidem mu vysloužila přezdívku "Živý štít Tilionu".</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irMkWFD393HS3XAhQg?embed=1&width=1024&height=1024" width="95%">
+        </div>
+
+        <div class="section" id="darin_krone">
+            <h2>Darin Krone – Senátor a vyjednavač</h2>
+            <p><strong>Postavení:</strong> Dlouholetý senátor za vesnici Hartkovice a hlavní diplomat při jednáních s Tralornem.</p>
+            <p><strong>Charakter:</strong> Vzdělaný, klidný a strategický myslitel.</p>
+            <p>Darin Krone má za sebou desetiletí diplomatické práce, během nichž pomáhal upevňovat vztahy Tilionu s okolními státy. Jeho styl vyjednávání je založený na logice a respektu, což mu přineslo uznání i u zahraničních partnerů. Je autorem několika obchodních dohod a známý jako architekt současné neutrality Tilionu.</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irMlpZXy4ev7v5aF1Q?embed=1&width=1024&height=1024" width="95%">
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#mirian_jozefar">Mirian Jozefar</a>
+        <a href="#selma_belvanir">Selma Belvanir</a>
+        <a href="#laen_tarvos">Laen Tarvos</a>
+        <a href="#darin_krone">Darin Krone</a>
+        <a href="tilion_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>
