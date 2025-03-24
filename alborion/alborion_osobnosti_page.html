@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Významné osobnosti Alborionu</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Významné osobnosti Sluneční říše Alborion</h1>
+        <p>Sluneční říše Alborion byla a je domovem výjimečných osobností, které formovaly její historii, kulturu i současnou podobu. Od legendárních zakladatelů až po moderní vládce a duchovní vůdce, každá z těchto postav zanechala nesmazatelnou stopu ve světle Zlatého Svitu.</p>
+
+        <div class="section" id="alborius">
+            <h2>Alborius – První Sluneční Čaroděj</h2>
+            <p><strong>Postavení:</strong> Zakladatel Alborionu, mystik a prorok sluneční magie.</p>
+            <p><strong>Schopnosti:</strong> Ovládal prvotní formy sluneční magie, schopný proměnit tmu ve světlo a vzývat energii samotného nebeského kotouče.</p>
+            <p><strong>Charakter:</strong> Moudrý, záhadný a hluboce spojený s přírodními cykly. Jeho přítomnost působila jako zjevení a naděje v době chaosu.</p>
+            <p>Alborius je legendární postavou, jehož činy daly vzniknout celému Alborionu. Věřilo se, že jeho hlas dokázal utišit bouři a jeho dotyk vyléčit nemocné. I po staletích je vnímán jako zosobnění ideálu světla – rovnováhy mezi mocí a pokorou. Každý významný mág v Alborionu je srovnáván s jeho odkazem.</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irJv--Wxm3vY810WsA?embed=1&width=1024&height=1024" width="95%">
+        </div>
+
+        <div class="section" id="elareia">
+            <h2>Královna Elareia První – Dcera Světla</h2>
+            <p><strong>Postavení:</strong> Sjednotitelka národů, první panovnice Sluneční říše.</p>
+            <p><strong>Schopnosti:</strong> Výjimečná diplomatka a bojovnice, využívala sluneční energii k ochraně a inspiraci svého lidu.</p>
+            <p><strong>Charakter:</strong> Statečná, osvícená a vizionářská, ale také neústupná vůči nespravedlnosti a korupci.</p>
+            <p>Elareia První byla zbožňována svými lidmi jako hrdinka a matka říše. Během její vlády vznikla infrastruktura říše, byly založeny první akademie a chrámy. Zavedla zlatý zákoník inspirovaný učením Zlatého Svitu a zajistila mír mezi kmeny, které po staletí bojovaly. Její sochy dnes stojí před každým větším chrámem Alborionu.</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irJwLIVd0jxrAE7yeA?embed=1&width=1024&height=1024" width="95%">
+        </div>
+
+        <div class="section" id="arvon">
+            <h2>Král Arvon Očistitel</h2>
+            <p><strong>Postavení:</strong> Vládce během Období Zatmění, reformátor a zachránce kultu.</p>
+            <p><strong>Schopnosti:</strong> Vůdce s nesmírnou vnitřní silou, podporovaný kněžstvem i vojskem. Proslul schopností sjednotit znesvářené frakce.</p>
+            <p><strong>Charakter:</strong> Přísný, rozvážný a hluboce oddaný víře ve Zlatý Svit.</p>
+            <p>Král Arvon obnovil důvěru lidu v kult Zlatého Svitu po temném období fanatismu a vnitřních rozbrojů. Jeho vláda znamenala očistu – jak doslovnou, tak duchovní. Zavedl etický kodex pro kněze, reorganizoval chrámový systém a potlačil radikální frakce. Jeho vláda bývá nazývána druhým východem slunce.</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irJyGobTV6v_Sr9x1g?embed=1&width=1024&height=1024" width="95%">
+        </div>
+
+        <div class="section" id="solen">
+            <h2>Král Solen IV. – Král mezi paprsky</h2>
+            <p><strong>Postavení:</strong> Současný vládce Alborionu.</p>
+            <p><strong>Schopnosti:</strong> Výborný řečník, diplomat a mág sluneční harmonie. Zastává vyvážený přístup mezi tradicí a inovací.</p>
+            <p><strong>Charakter:</strong> Klidný, osvícený, hluboce věřící ve spolupráci a vzdělání.</p>
+            <p>Solen IV. je symbolem stability a modernizace. Pod jeho vedením Alborion posílil svou pozici mezi říšemi, podpořil mezinárodní spolupráci a otevřel chrámové univerzity cizincům. Přesto se drží tradic – každé jeho rozhodnutí je konzultováno s kněžstvem, a žádný zákon není přijat bez rituálního požehnání. Jeho osobní znak – zářivý disk obklopený knihou a mečem – symbolizuje rovnováhu mezi vírou, věděním a silou.</p>
+			<img src="https://1drv.ms/i/s!AiDJb8eEyOb6irJ0dcUMQS7iw1_PyA?embed=1&width=1024&height=1024" width="95%">
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#alborius">Alborius</a>
+        <a href="#elareia">Královna Elareia První</a>
+        <a href="#arvon">Král Arvon</a>
+        <a href="#solen">Král Solen IV.</a>
+        <a href="alborion_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>
