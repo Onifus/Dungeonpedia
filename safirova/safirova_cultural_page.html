@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kultura Safírové konfederace</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Kultura a obyvatelé Safírové konfederace</h1>
+        <p>Safírová konfederace je domovem kulturně rozmanitého obyvatelstva, které sdílí společné hodnoty spojení, spolupráce a úcty k přírodě. Ačkoli každý region má vlastní zvyky a tradice, jejich propojení vytváří živou mozaiku kulturní identity, která je jedním z hlavních pilířů jednoty konfederace.</p>
+
+        <div class="section" id="obyvatelstvo">
+            <h2>Obyvatelstvo a společenská struktura</h2>
+            <p>Konfederace je tvořena směsicí národností, kmenových společenství, městských komunit a poutníků. Obyvatelé se liší jazykovými dialekty, oděvem i způsobem života – zatímco v horských oblastech převládají pastevci a kameníci, v úrodných údolích žijí zemědělci, bylinkáři a obchodníci.</p>
+            <p>Společnost je postavena na principech rovnosti a vzájemného respektu. Hierarchie není založena na šlechtických rodech, ale na zásluhách a přínosu pro komunitu. Největší úctě se těší ti, kdo dokážou spojovat rozdílné světy – harmonizátoři, vyjednavači, učenci a léčitelé.</p>
+        </div>
+
+        <div class="section" id="filozofie_viry">
+            <h2>Filozofie víry – Cykly Safírové Matky</h2>
+            <p>Víra v Safírovou Matku není jen náboženstvím, ale životní filozofií. Učí, že vše v přírodě i společnosti probíhá v cyklech – narození, růst, sklizeň, útlum a obnova. Každý jedinec je součástí většího celku a jeho činy mají vliv na rovnováhu celého společenství.</p>
+            <p>Modlitby a obřady nejsou vnímány jako povinnost, ale jako součást každodenního života. Při každém důležitém rozhodnutí je tradicí poradit se se staršími, kněžími nebo vykladači cyklů. Safírová Matka není považována za vládce, ale za ochránkyni a průvodkyni.</p>
+        </div>
+
+        <div class="section" id="umeni">
+            <h2>Umění, hudba a řemesla</h2>
+            <p>Umění v konfederaci je silně inspirováno přírodou, drahokamy a zemědělskými cykly. Každý region má vlastní styl – zatímco severní kmeny vyřezávají složité ornamenty z dřeva a rohoviny, jižní města vytvářejí pestré mozaiky ze safírových střepů a barevného skla.</p>
+            <p>Hudba je často rituální, ale také radostná. Tradiční nástroje zahrnují safírové zvonky, strunné loutny a dřevěné flétny. V mnoha městech se konají slavnosti, kde se tančí v kruzích – tanec symbolizuje propojení komunit a kontinuitu života.</p>
+            <p>Řemeslníci jsou považováni za duchovní dědice tvůrčího aspektu Matky. Největší mistři šperkařství, tkalcovství nebo hrnčířství bývají často zároveň vážení duchovní průvodci.</p>
+        </div>
+
+        <div class="section" id="vzdelani">
+            <h2>Vzdělání a předávání znalostí</h2>
+            <p>Každý region má právo na vlastní systém vzdělávání, ale všechny školy ctí společné základní principy – úctu k přírodě, historii, spolupráci a praktické dovednosti. Děti se učí nejen číst a psát, ale také farmařit, jednat v radě a rozumět cyklům Safírové Matky.</p>
+            <p>Větší města mají "Domy moudrosti", kde se shromažďují knihy, rituální svitky, mapy a herbáře. Učenci z různých částí konfederace se zde setkávají, vyměňují si poznatky a předávají znalosti dál. Nejváženější moudří bývají zváni jako poradci Rady Spojení.</p>
+        </div>
+
+        <div class="section" id="svatky">
+            <h2>Sváteční cykly a duchovní život</h2>
+            <p>Kalendář konfederace je rozdělen podle čtyř hlavních cyklů – Zrození, Růst, Sklizeň a Obnova. Každý z nich má své svátky, které reflektují aktuální období v přírodě i životě společnosti.</p>
+            <ul>
+                <li><strong>Den Spojení:</strong> Největší svátek roku – oslava jednoty všech členů konfederace. Konají se průvody, tančí se kruhové tance a předávají se dary mezi regiony.</li>
+                <li><strong>Safírový měsíc:</strong> Období rituální očisty a rozjímání. Chrámové rituály zahrnují očistné lázně, zpěv mantr a pálení vonných pryskyřic.</li>
+                <li><strong>Noc Tří Ohniv:</strong> Rituál oslavující spojenectví tří hlavních oblastí. Zapalují se tři velké ohně, kolem nichž se tančí, zpívá a vyprávějí se příběhy zakladatelů.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#obyvatelstvo">Obyvatelstvo</a>
+        <a href="#filozofie_viry">Víra a filozofie</a>
+        <a href="#umeni">Umění a řemesla</a>
+        <a href="#vzdelani">Vzdělání</a>
+        <a href="#svatky">Sváteční cykly</a>
+        <a href="safirova_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>

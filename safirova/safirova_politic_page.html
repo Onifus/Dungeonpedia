@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politika Safírové konfederace</title>
+    <link rel="stylesheet" href="../dungeonpedia_style.css">
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleSidebar()">Obsah</button>
+    <div class="container">
+        <h1>Politika a vláda Safírové konfederace</h1>
+        <p>Safírová konfederace je jedinečným politickým útvarem, který vznikl z potřeby sjednotit různé kmeny, města a regiony tváří v tvář vnějším hrozbám. Její vládní struktura je založena na rovnováze mezi autonomií jednotlivých členů a jednotou v rozhodování.</p>
+
+        <div class="section" id="zakladni_struktura">
+            <h2>Základní struktura vlády</h2>
+            <p>Každý region v konfederaci má vlastní správu, ale zároveň vysílá zástupce do centrální Rady Spojení, která rozhoduje o otázkách obrany, zahraniční politiky a obchodu. Regionální rady mají vysokou míru autonomie, ale jejich rozhodnutí nesmí odporovat konfederační chartě.</p>
+            <p>Rada Spojení je tvořena volenými zástupci, kteří mají mandát od svých komunit. Předsedajícím je vždy jeden z tzv. Harmonizátorů – neutrálních vyjednavačů, kteří dohlížejí na férovost procesu a hledání konsenzu.</p>
+        </div>
+
+        <div class="section" id="hlasovani">
+            <h2>Hlasovací systém a rozhodování</h2>
+            <p>Rozhodování v Radě probíhá podle systému váženého hlasu, který zohledňuje jak počet obyvatel daného regionu, tak jeho příspěvky do společného rozpočtu. Tím je zajištěno, že větší regiony nemají absolutní dominanci, ale zároveň mají adekvátní vliv.</p>
+            <p>Klíčová rozhodnutí – jako je vyhlášení války nebo přijetí nového člena – vyžadují konsenzus nebo alespoň dvoutřetinovou většinu. Méně zásadní otázky, jako jsou úpravy obchodních tarifů, se schvalují prostou většinou.</p>
+        </div>
+
+        <div class="section" id="obrana">
+            <h2>Obrana a bezpečnost</h2>
+            <p>Konfederace nevlastní jednotnou armádu, ale disponuje silami jednotlivých regionů, které jsou v případě ohrožení povolány do společné služby. Tyto jednotky cvičí podle standardizovaných protokolů, aby byly schopny efektivní spolupráce.</p>
+            <p>Existují i tzv. Hraniční sbory, složené z dobrovolníků z více regionů, kteří monitorují průsmyky, hranice a obchodní stezky. V době krize je vedení obranných sil svěřeno vojenské radě složené ze zkušených velitelů a stratégů nominovaných Radou Spojení.</p>
+        </div>
+
+        <div class="section" id="obchod">
+            <h2>Obchodní politika</h2>
+            <p>Obchod je životní tepnou Safírové konfederace. Konfederace vyjednává obchodní smlouvy jako celek, čímž si zajišťuje výhodnější podmínky a stabilní vývozní trhy. Vnitřní cla mezi regiony neexistují, aby se podpořil volný pohyb zboží.</p>
+            <p>Existují také sdílené fondy pro podporu slabších regionů, které se dostanou do ekonomických potíží. Každý region má zároveň možnost rozvíjet své vlastní obchodní specializace, čímž vzniká bohatá a propojená ekonomika.</p>
+        </div>
+
+        <div class="section" id="vztah_k_viry">
+            <h2>Vztah politiky a víry</h2>
+            <p>Náboženství v Safírové konfederaci hraje významnou roli především v kulturním a diplomatickém životě. Kult Safírové Matky není nadřazen státní moci, ale je hluboce zakořeněn v tradicích. Kněží se často účastní veřejných obřadů a jejich hlas je slyšet při formování etických rámců zákonů.</p>
+            <p>Rada Spojení má svého oficiálního duchovního poradce, ale konečné rozhodnutí je vždy světské. Tato rovnováha mezi duchovní a politickou složkou je jedním z pilířů stability konfederace.</p>
+        </div>
+    </div>
+
+    <div class="sidebar closed" id="sidebar">
+        <h2>Obsah</h2>
+        <a href="#zakladni_struktura">Základní struktura vlády</a>
+        <a href="#hlasovani">Hlasovací systém</a>
+        <a href="#obrana">Obrana</a>
+        <a href="#obchod">Obchodní politika</a>
+        <a href="#vztah_k_viry">Víra a politika</a>
+        <a href="safirova_main_page.html" class="back-btn" style="color: black">Zpět</a>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("closed");
+        }
+    </script>
+</body>
+</html>
